@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  clip: rect(auto, auto, auto, auto);
+}
+
+.body {
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  clip: rect(auto, auto, auto, auto);
+}
+
+.footer {
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  clip: rect(auto, auto, auto, auto);
+}
+
+.text {
+  position: fixed;
+  bottom: 50vh;
+}
+
+.white {
+  color: white
+}
+
+.black {
+  color: black;
+}
+
+.rel {
+  height: 500px;
+  position: relative;
+}
