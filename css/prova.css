@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-html {
+html,
+body {
   height: 100%;
 }
 
@@ -13,6 +14,6 @@ body {
 
 .red {
   background-color: red;
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
