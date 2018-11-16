@@ -1,11 +1,11 @@
 import React from "react"
 
 const List = props => (
-  <ul>
+  <div>
     {
-      props.items.map((item, index) => <li key={index}>{item}</li>)
+      props.items.map((item, index) => <img id={index} width="300" key={index} src={item} />)
     }
-  </ul>
+  </div>
 );
 
 export default List;
