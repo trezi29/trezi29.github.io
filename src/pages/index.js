@@ -22,11 +22,9 @@ const imagesList = [
 ];
 
 const IndexPage = () => (
-  <div>
-    <Slideshow
-      images={imagesList}
-    />
-  </div>
+  <Slideshow
+    images={imagesList}
+  />
 )
 
 export default IndexPage

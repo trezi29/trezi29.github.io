@@ -1,5 +1,63 @@
 @import './def.scss';
 
+.slideshow__hidden {
+  display: none;
+}
+
+.slideshow__loading {
+  width: 100vw;
+  height: 100vh;
+  background: $light-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+
+  .slideshow__logo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    letter-spacing: normal;
+    color: $dark-color;
+  }
+
+  .slideshow__loader {
+    // width: 160px;
+    position: absolute;
+    top: 0;
+    height: 5px;
+    background-color: $dark-color;
+    animation: loader 2s infinite;
+
+    @keyframes loader {
+      0% {
+        width: 0;
+        left: 0;
+      }
+
+      50% {
+        width: 100%;
+        left: 0;
+      }
+
+      51% {
+        width: 100%;
+        right: 0;
+        left: auto;
+      }
+
+      100% {
+        width: 0;
+        right: 0;
+        left: auto;
+      }
+    }
+  }
+}
+
 .slideshow__pictures {
   width: 100vw;
   height: 100vh;
