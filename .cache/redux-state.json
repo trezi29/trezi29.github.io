@@ -761,7 +761,7 @@
       "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "9620d583319d49e3e1b1d8a4a22ab9a8",
+      "version": "757b1d91a2d0e566262c7f0a61dea6a7",
       "pluginOptions": {
         "plugins": []
       },
@@ -845,7 +845,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "768a9f692e23babea7cfd4dcb2559a06",
+        "contentDigest": "7138f43a84e98342b1aff18d401c3f32",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -951,12 +951,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-17T12:37:43.223Z",
+      "buildTime": "2018-11-17T12:40:39.241Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c4cb64ec406be3d60f55309bc05a07c5",
+        "contentDigest": "7ea68efc0d5e1b69829c16eac6ef54c0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -966,7 +966,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8cf119261e04ddd23964eea4234d8486",
+        "contentDigest": "cd3cddf23f1b15cb048d682c9cc5d1d3",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -978,7 +978,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-11-17T12:21:23.578Z",
-      "accessTime": "2018-11-17T12:37:45.606Z",
+      "accessTime": "2018-11-17T12:40:41.493Z",
       "changeTime": "2018-11-17T12:21:23.578Z",
       "birthTime": "2018-11-17T11:57:44.922Z",
       "root": "/",
@@ -996,11 +996,11 @@
       "blksize": 4096,
       "ino": 8597271207,
       "blocks": 0,
-      "atimeMs": 1542458265605.6313,
+      "atimeMs": 1542458441492.621,
       "mtimeMs": 1542457283578.1196,
       "ctimeMs": 1542457283578.1196,
       "birthtimeMs": 1542455864921.792,
-      "atime": "2018-11-17T12:37:45.606Z",
+      "atime": "2018-11-17T12:40:41.493Z",
       "mtime": "2018-11-17T12:21:23.578Z",
       "ctime": "2018-11-17T12:21:23.578Z",
       "birthtime": "2018-11-17T11:57:44.922Z"
@@ -1025,7 +1025,7 @@
       "size": 867301,
       "prettySize": "867 kB",
       "modifiedTime": "2018-11-17T11:50:38.952Z",
-      "accessTime": "2018-11-17T12:23:12.929Z",
+      "accessTime": "2018-11-17T12:37:50.016Z",
       "changeTime": "2018-11-17T12:21:23.583Z",
       "birthTime": "2018-11-17T11:50:38.946Z",
       "root": "/",
@@ -1043,11 +1043,11 @@
       "blksize": 4096,
       "ino": 8597273821,
       "blocks": 1696,
-      "atimeMs": 1542457392929.3503,
+      "atimeMs": 1542458270015.7175,
       "mtimeMs": 1542455438952.1658,
       "ctimeMs": 1542457283583.289,
       "birthtimeMs": 1542455438946.1929,
-      "atime": "2018-11-17T12:23:12.929Z",
+      "atime": "2018-11-17T12:37:50.016Z",
       "mtime": "2018-11-17T11:50:38.952Z",
       "ctime": "2018-11-17T12:21:23.583Z",
       "birthtime": "2018-11-17T11:50:38.946Z"
@@ -1082,7 +1082,7 @@
       "size": 1444364,
       "prettySize": "1.44 MB",
       "modifiedTime": "2018-11-17T11:50:38.946Z",
-      "accessTime": "2018-11-17T12:23:12.929Z",
+      "accessTime": "2018-11-17T12:37:50.016Z",
       "changeTime": "2018-11-17T12:21:23.582Z",
       "birthTime": "2018-11-17T11:50:38.934Z",
       "root": "/",
@@ -1100,11 +1100,11 @@
       "blksize": 4096,
       "ino": 8597273820,
       "blocks": 2824,
-      "atimeMs": 1542457392929.3455,
+      "atimeMs": 1542458270015.7078,
       "mtimeMs": 1542455438945.843,
       "ctimeMs": 1542457283582.2969,
       "birthtimeMs": 1542455438934.1653,
-      "atime": "2018-11-17T12:23:12.929Z",
+      "atime": "2018-11-17T12:37:50.016Z",
       "mtime": "2018-11-17T11:50:38.946Z",
       "ctime": "2018-11-17T12:21:23.582Z",
       "birthtime": "2018-11-17T11:50:38.934Z"
@@ -1182,7 +1182,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "32ae4ea8e60db467478d46918ddd459d"
+    "PLUGINS_HASH": "9757abe5b4376a4f150052a026f90dc5"
   },
   "componentDataDependencies": {
     "nodes": {},
