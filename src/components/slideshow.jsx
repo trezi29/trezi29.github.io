@@ -39,7 +39,7 @@ export default class Slideshow extends Component {
       >
         {/* Your images */}
         {
-          this.props.images.map((item, index) => <img className="slideshow__hidden" height="300" key={index} src={item.image} />)
+          this.props.images.map((item, index) => <img className="slideshow__hidden" alt="" height="300" key={index} src={item.image} />)
         }
         {this.state.imgLoaded ? '' :
         <div className="slideshow__loading">
