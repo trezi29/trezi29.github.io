@@ -21,10 +21,10 @@ export default class Slideshow extends Component {
 
   render() {
     return (
-      <div className="slideshow__pictures" style={{ backgroundImage: `url(${this.props.images[this.state.img].image})`}}>
+      <div className="slideshow__pictures" style={{ backgroundImage: `url(${this.props.images[this.state.img].image})`}} onMouseMove={this.mouseMoving}>
         <div className="slideshow__controls">
-          <h1>{this.props.images[this.state.img].title}</h1>
-          <h2>{this.props.images[this.state.img].date}</h2>
+          <h1 className="slideshow__title">{this.props.images[this.state.img].title}</h1>
+          <h2 className="slideshow__date">{this.props.images[this.state.img].date}</h2>
           {this.state.img < this.state.imgNumber-1 ? <button className="slideshow__button--next" onClick={this.nextImg}>Next</button> : ''}
           {this.state.img > 0 ? <button className="slideshow__button--prev" onClick={this.prevImg}>Prev</button> : ''}
         </div>
