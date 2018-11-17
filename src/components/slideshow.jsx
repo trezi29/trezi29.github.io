@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+
+import '../styles/slideshow.scss'
 
 export default class Slideshow extends Component {
   constructor(props) {
@@ -19,12 +21,13 @@ export default class Slideshow extends Component {
 
   render() {
     return (
-      <div>
-        <h1>{this.props.images[this.state.img].title}</h1>
-        <h2>{this.props.images[this.state.img].date}</h2>
-        <img width="100%" src={this.props.images[this.state.img].image}></img>
-        {this.state.img < this.state.imgNumber-1 ? <button onClick={this.nextImg}>Next</button> : ''}
-        {this.state.img > 0 ? <button onClick={this.prevImg}>Prev</button> : ''}
+      <div className="slideshow__pictures" style={{ backgroundImage: `url(${this.props.images[this.state.img].image})`}}>
+        <div className="slideshow__controls">
+          <h1>{this.props.images[this.state.img].title}</h1>
+          <h2>{this.props.images[this.state.img].date}</h2>
+          {this.state.img < this.state.imgNumber-1 ? <button className="slideshow__button--next" onClick={this.nextImg}>Next</button> : ''}
+          {this.state.img > 0 ? <button className="slideshow__button--prev" onClick={this.prevImg}>Prev</button> : ''}
+        </div>
       </div>
     );
   }

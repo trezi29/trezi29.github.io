@@ -18,8 +18,6 @@ const IndexPage = () => (
   <div>
     <Slideshow
       images={imagesList}
-      // title="Orobie Ronde"
-      // date="Agosto 2018"
     />
   </div>
 )

@@ -1,0 +1,1315 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6ab6d9a7f275918828848b6295222227",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0a67b00d1de65c69cb5a28e081afbde3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e3b25edc0f4f7e8a029cfbd23be1429b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1425b662611eb872e632df82638323f0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7db64624fb11ea1d19440eb443940d9f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "41fa546e4a2b7ae39393a5468ca44dc9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e8534a5276cd38c58207423da88f7305",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f5e0a8be35bc25c480ba5cd7a4ee9d20",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d7f6c8e289b6cfe4edb5445ad889c672",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c8af89d18d7c94227d4c22b466349c70",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ec0d48bda7568cdcc1a8fa7bce2f17f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "50bbf599e8a5b2115076e9140ba61911",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "57e9bc9b30ac9e83509dd6a964af4cd0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.15"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.10.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "56ebca784817de5feae77ac5f8678370",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2c9a32a218d8a9006241cce2128d6e44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-11-17T11:05:54.016Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5537773684d6ced8993f71cbb248780d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63b34368-db11-5dc4-8d8e-1446434186cb": {
+      "id": "63b34368-db11-5dc4-8d8e-1446434186cb",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fc71c6d6043e661568484e8545016185",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-11-17T01:03:00.107Z",
+      "accessTime": "2018-11-17T11:05:56.950Z",
+      "changeTime": "2018-11-17T09:43:43.298Z",
+      "birthTime": "2018-11-16T21:54:52.076Z",
+      "root": "/",
+      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8597073816,
+      "blocks": 0,
+      "atimeMs": 1542452756949.5073,
+      "mtimeMs": 1542416580106.9138,
+      "ctimeMs": 1542447823298.3179,
+      "birthtimeMs": 1542405292075.998,
+      "atime": "2018-11-17T11:05:56.950Z",
+      "mtime": "2018-11-17T01:03:00.107Z",
+      "ctime": "2018-11-17T09:43:43.298Z",
+      "birthtime": "2018-11-16T21:54:52.076Z"
+    },
+    "7136977d-67dd-5ddf-a002-46ea679c8056": {
+      "id": "7136977d-67dd-5ddf-a002-46ea679c8056",
+      "children": [
+        "a185c9fa-80e4-5215-899e-4718213eacd7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-11-16T21:54:52.078Z",
+      "accessTime": "2018-11-17T10:03:42.345Z",
+      "changeTime": "2018-11-17T09:43:43.298Z",
+      "birthTime": "2018-11-16T21:54:52.078Z",
+      "root": "/",
+      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8597073818,
+      "blocks": 48,
+      "atimeMs": 1542449022344.9148,
+      "mtimeMs": 1542405292077.766,
+      "ctimeMs": 1542447823298.187,
+      "birthtimeMs": 1542405292077.506,
+      "atime": "2018-11-17T10:03:42.345Z",
+      "mtime": "2018-11-16T21:54:52.078Z",
+      "ctime": "2018-11-17T09:43:43.298Z",
+      "birthtime": "2018-11-16T21:54:52.078Z"
+    },
+    "a185c9fa-80e4-5215-899e-4718213eacd7": {
+      "id": "a185c9fa-80e4-5215-899e-4718213eacd7",
+      "children": [],
+      "parent": "7136977d-67dd-5ddf-a002-46ea679c8056",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a8ec132a-4790-576d-83cb-66e5c69060b1": {
+      "id": "a8ec132a-4790-576d-83cb-66e5c69060b1",
+      "children": [
+        "8375d44c-9b61-5285-8eac-d338dfc46b82"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2018-11-16T21:54:52.077Z",
+      "accessTime": "2018-11-17T10:03:42.345Z",
+      "changeTime": "2018-11-17T09:43:43.297Z",
+      "birthTime": "2018-11-16T21:54:52.076Z",
+      "root": "/",
+      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8597073817,
+      "blocks": 328,
+      "atimeMs": 1542449022344.88,
+      "mtimeMs": 1542405292077.262,
+      "ctimeMs": 1542447823297.331,
+      "birthtimeMs": 1542405292076.0815,
+      "atime": "2018-11-17T10:03:42.345Z",
+      "mtime": "2018-11-16T21:54:52.077Z",
+      "ctime": "2018-11-17T09:43:43.297Z",
+      "birthtime": "2018-11-16T21:54:52.076Z"
+    },
+    "8375d44c-9b61-5285-8eac-d338dfc46b82": {
+      "id": "8375d44c-9b61-5285-8eac-d338dfc46b82",
+      "children": [],
+      "parent": "a8ec132a-4790-576d-83cb-66e5c69060b1",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "73e5df4fb0353ddef7e4ff7a35bbe03f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /index__def/": {
+      "jsonName": "index-def-be5",
+      "internalComponentName": "ComponentIndexDef",
+      "path": "/index__def/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index__def.js",
+      "componentChunkName": "component---src-pages-index-def-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index__def.js",
+      "id": "SitePage /index__def/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4293cc427c3bcb5aaf8a251ff841ef18",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "36856aa4373646b91ee38b4ca15a994a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fae3122a67fe6e7891a461747ca9a33e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2cf2cf045dd2c8bb2133ec0bb696495b",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "e36c1fd461eed26e392e3cfb721177ea"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js"
+      ],
+      "a8ec132a-4790-576d-83cb-66e5c69060b1": [
+        "sq--src-components-image-js"
+      ],
+      "8375d44c-9b61-5285-8eac-d338dfc46b82": [
+        "sq--src-components-image-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-def-be5": "710/path---index-def-be-5-afc-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index__def.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index__def.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/page-2.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-image-js": {
+      "name": "usersMatteotressiDocumentsGitHubTrezi29GithubIoSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersMatteotressiDocumentsGitHubTrezi29GithubIoSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    }
+  }
+}
