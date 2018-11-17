@@ -1,9 +1,14 @@
 import React from 'react'
 import Slideshow from "../components/slideshow"
 
+import '../styles/def.scss'
+
+//import images from images folder
+import Img1 from '../images/cartasu.ga_01.jpg';
+
 const imagesList = [
   {
-    image: '../images/cartasu.ga_01.jpg',
+    image: {Img1},
     title: 'Orobie Ronde 01',
     date: 'Agosto 2018'
  },
