@@ -7,6 +7,7 @@ import '../styles/def.scss'
 import Img1 from '../images/cartasu.ga_01.jpg';
 import Img2 from '../images/cartasu.ga_02.jpg';
 
+//map images with title and date
 const imagesList = [
   {
     image: Img1,

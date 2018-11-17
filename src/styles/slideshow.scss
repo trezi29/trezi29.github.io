@@ -1,3 +1,5 @@
+@import './def.scss';
+
 .slideshow__pictures {
   width: 100vw;
   height: 100vh;
@@ -7,9 +9,32 @@
   background-size: cover;
 
   .slideshow__controls {
-    background-color: #fff;
+    width: 475px;
+    height: 195px;
+    background-color: $light-color;
     position: absolute;
     bottom: 0;
     left: 20%;
+
+    .slideshow__button {
+      width: 150px;
+      height: 65px;
+      position: absolute;
+      background-color: $dark-color;
+      color: $light-color;
+      border: 0;
+
+      &--next {
+        @extend .slideshow__button;
+        top: 30px;
+        right: -100px;
+      }
+
+      &--prev {
+        @extend .slideshow__button;
+        bottom: 30px;
+        left: -100px;
+      }
+    }
   }
 }
