@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "6ab6d9a7f275918828848b6295222227",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -957,14 +966,16 @@
       "siteMetadata": {
         "title": "cartasu.ga"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-17T18:47:16.638Z",
+      "buildTime": "2018-12-08T12:30:00.589Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0312c967e5629425694d955e406d518f",
+        "contentDigest": "b209eefb791abc649f1ef36bbe3a62c6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -974,7 +985,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ab90352188825435db735c6588eaed97",
+        "contentDigest": "f5b5a16f6cb1a513055d8f84a7047932",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -986,7 +997,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-11-17T12:21:23.578Z",
-      "accessTime": "2018-11-17T18:47:18.733Z",
+      "accessTime": "2018-12-08T12:30:06.594Z",
       "changeTime": "2018-11-17T12:21:23.578Z",
       "birthTime": "2018-11-17T11:57:44.922Z",
       "root": "/",
@@ -1004,11 +1015,11 @@
       "blksize": 4096,
       "ino": 8597271207,
       "blocks": 0,
-      "atimeMs": 1542480438732.6611,
+      "atimeMs": 1544272206593.6982,
       "mtimeMs": 1542457283578.1196,
       "ctimeMs": 1542457283578.1196,
       "birthtimeMs": 1542455864921.792,
-      "atime": "2018-11-17T18:47:18.733Z",
+      "atime": "2018-12-08T12:30:06.594Z",
       "mtime": "2018-11-17T12:21:23.578Z",
       "ctime": "2018-11-17T12:21:23.578Z",
       "birthtime": "2018-11-17T11:57:44.922Z"
@@ -1210,6 +1221,10 @@
     "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}

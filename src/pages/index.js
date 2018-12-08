@@ -11,12 +11,12 @@ import Img2 from '../images/cartasu.ga_02.jpg';
 const imagesList = [
   {
     image: Img1,
-    title: 'Orobie Ronde 01',
+    title: 'Orobie Ronde',
     date: 'Agosto 2018'
  },
   {
     image: Img2,
-    title: 'Orobie Ronde 02',
+    title: 'Orobie Ronde',
     date: 'Agosto 2018'
   }
 ];
