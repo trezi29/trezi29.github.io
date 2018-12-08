@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Helmet from 'react-helmet'
 import ImagesLoaded from 'react-images-loaded';
 
 import '../styles/slideshow.scss'
@@ -28,6 +29,9 @@ export default class Slideshow extends Component {
   render() {
     return (
       <div>
+      <Helmet
+        title={'cartasu.ga - ' + this.props.images[this.state.img].title}
+      />
       <ImagesLoaded
         // elementType={'ul'} // defaults to 'div'
         className={'ImagesLoadedContainer'} // defaults to 'images-loaded-container'

@@ -971,12 +971,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-08T13:03:55.349Z",
+      "buildTime": "2018-12-08T13:21:27.798Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dbcd8dcdb161f029d9a74219f996189f",
+        "contentDigest": "911848b7aa8a01b1d1b8ded9a6875f74",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -986,7 +986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7092a221b15cd6fcb3bd408b7b190822",
+        "contentDigest": "ffd2b6022ff28ffcde75bbc89ed9a7b7",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -998,7 +998,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-12-08T13:03:19.103Z",
-      "accessTime": "2018-12-08T13:03:57.941Z",
+      "accessTime": "2018-12-08T13:21:30.220Z",
       "changeTime": "2018-12-08T13:03:19.103Z",
       "birthTime": "2018-11-17T11:57:44.922Z",
       "root": "/",
@@ -1016,11 +1016,11 @@
       "blksize": 4096,
       "ino": 8597271207,
       "blocks": 0,
-      "atimeMs": 1544274237941.345,
+      "atimeMs": 1544275290219.5747,
       "mtimeMs": 1544274199102.8196,
       "ctimeMs": 1544274199102.8196,
       "birthtimeMs": 1542455864921.792,
-      "atime": "2018-12-08T13:03:57.941Z",
+      "atime": "2018-12-08T13:21:30.220Z",
       "mtime": "2018-12-08T13:03:19.103Z",
       "ctime": "2018-12-08T13:03:19.103Z",
       "birthtime": "2018-11-17T11:57:44.922Z"
@@ -1215,10 +1215,6 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
-    },
     "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js"
@@ -1226,6 +1222,10 @@
     "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js"
+    },
+    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
