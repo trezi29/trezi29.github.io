@@ -1,0 +1,17 @@
+@import './def.scss';
+
+.header__container {
+  padding: 30px 40px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .header__logo {
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: $dark-color;
+  }
+}

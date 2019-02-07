@@ -1,18 +1,27 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "586b8bbd37a29ecc64fb3dc463d47311",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0a67b00d1de65c69cb5a28e081afbde3",
+        "contentDigest": "cc9c678abe5ea13ee5ec6e7788353823",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -59,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -76,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3b25edc0f4f7e8a029cfbd23be1429b",
+        "contentDigest": "16c3fbe727ac39c72e0080227b0a88b9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -95,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -112,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1425b662611eb872e632df82638323f0",
+        "contentDigest": "fd29ea0b0cd13e26658424703619e784",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -130,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -147,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7db64624fb11ea1d19440eb443940d9f",
+        "contentDigest": "a83a8124cb271e73a5c617788b64a467",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -165,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -182,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "41fa546e4a2b7ae39393a5468ca44dc9",
+        "contentDigest": "094229b528fdc2519769cb2a4be66c25",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "2.0.4",
@@ -200,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -261,13 +270,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e8534a5276cd38c58207423da88f7305",
+        "contentDigest": "7813312bccab3a60cdbb7f24a1aac158",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.0",
@@ -279,7 +288,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -342,20 +351,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f5e0a8be35bc25c480ba5cd7a4ee9d20",
+        "contentDigest": "5c209b4a35635f9a885b56987652141e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
-        "path": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images"
+        "path": "/Users/user/Documents/GitHub/trezi29.github.io/src/images"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -363,7 +372,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -453,13 +462,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7f6c8e289b6cfe4edb5445ad889c672",
+        "contentDigest": "c1a9505eff6400193ecedc45cea4c455",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-sharp": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
       "version": "2.1.4",
@@ -473,7 +482,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -545,13 +554,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c8af89d18d7c94227d4c22b466349c70",
+        "contentDigest": "3bb9dcee2431a4fac5ba8d657e77732f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "2.0.7",
@@ -561,7 +570,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -666,13 +675,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f549fcf192d1bad554d320dda629e399",
+        "contentDigest": "a114709292a6b11fbff7e9d305f04def",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-manifest": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.5",
@@ -693,7 +702,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
@@ -753,13 +762,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fc998dc7cc44d5d972b54da81a64048b",
+        "contentDigest": "11e5f16460b6f1d71a60f7a03430aa4e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "a93e44dd21c9fa03f25d167ba87ca25c",
@@ -769,7 +778,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -854,19 +863,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ad01bc09fd2501f13e725e21eb3b511b",
+        "contentDigest": "ef1bff56625c7e61a383330bb761d389",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages",
+        "path": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -874,7 +883,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -949,7 +958,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2c9a32a218d8a9006241cce2128d6e44",
+        "contentDigest": "e30bd79c34197eef7f7b28e914d92d29",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -958,40 +967,42 @@
       "siteMetadata": {
         "title": "cartasu.ga"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-08T17:15:11.842Z",
+      "buildTime": "2019-02-07T13:59:27.630Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3f63214860d9f33104a9403874040595",
+        "contentDigest": "63b43398931d3654b9e9af35cbdda5c7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "63b34368-db11-5dc4-8d8e-1446434186cb": {
-      "id": "63b34368-db11-5dc4-8d8e-1446434186cb",
+    "efa7ea3d-fa82-5b64-9a81-ec07f68aabde": {
+      "id": "efa7ea3d-fa82-5b64-9a81-ec07f68aabde",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e92f836c6116a7ed3fbfe847dd54297b",
+        "contentDigest": "6d0c8b6a5ee781c43e5dbc662afcbffc",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "relativePath": "",
       "extension": "",
       "size": 544,
       "prettySize": "544 B",
-      "modifiedTime": "2018-12-08T17:08:14.484Z",
-      "accessTime": "2018-12-08T17:15:14.246Z",
-      "changeTime": "2018-12-08T17:08:14.484Z",
-      "birthTime": "2018-11-17T11:57:44.922Z",
+      "modifiedTime": "2019-02-04T14:31:32.385Z",
+      "accessTime": "2019-02-07T13:59:31.900Z",
+      "changeTime": "2019-02-04T14:31:32.385Z",
+      "birthTime": "2019-02-04T14:31:32.298Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src",
       "base": "images",
       "ext": "",
       "name": "images",
@@ -1003,135 +1014,21 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597271207,
+      "ino": 4682339,
       "blocks": 0,
-      "atimeMs": 1544289314246.1353,
-      "mtimeMs": 1544288894483.585,
-      "ctimeMs": 1544288894483.585,
-      "birthtimeMs": 1542455864921.792,
-      "atime": "2018-12-08T17:15:14.246Z",
-      "mtime": "2018-12-08T17:08:14.484Z",
-      "ctime": "2018-12-08T17:08:14.484Z",
-      "birthtime": "2018-11-17T11:57:44.922Z"
+      "atimeMs": 1549547971900.1157,
+      "mtimeMs": 1549290692385.2812,
+      "ctimeMs": 1549290692385.2812,
+      "birthtimeMs": 1549290692297.737,
+      "atime": "2019-02-07T13:59:31.900Z",
+      "mtime": "2019-02-04T14:31:32.385Z",
+      "ctime": "2019-02-04T14:31:32.385Z",
+      "birthtime": "2019-02-04T14:31:32.298Z"
     },
-    "d40bf296-6c0e-51cb-a8b7-9ee9823921af": {
-      "id": "d40bf296-6c0e-51cb-a8b7-9ee9823921af",
+    "65a4df99-b450-5f1e-aed8-535392ab5bac": {
+      "id": "65a4df99-b450-5f1e-aed8-535392ab5bac",
       "children": [
-        "9cae7e2e-ea99-53a2-b4f4-f267ac52f846"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e6c5f32f0aeeebcc9c87251163e55d28",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_02.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_02.jpg",
-      "relativePath": "cartasu.ga_02.jpg",
-      "extension": "jpg",
-      "size": 867301,
-      "prettySize": "867 kB",
-      "modifiedTime": "2018-11-17T11:50:38.952Z",
-      "accessTime": "2018-12-08T12:40:36.939Z",
-      "changeTime": "2018-11-17T12:21:23.583Z",
-      "birthTime": "2018-11-17T11:50:38.946Z",
-      "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_02.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_02",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8597273821,
-      "blocks": 1696,
-      "atimeMs": 1544272836939.164,
-      "mtimeMs": 1542455438952.1658,
-      "ctimeMs": 1542457283583.289,
-      "birthtimeMs": 1542455438946.1929,
-      "atime": "2018-12-08T12:40:36.939Z",
-      "mtime": "2018-11-17T11:50:38.952Z",
-      "ctime": "2018-11-17T12:21:23.583Z",
-      "birthtime": "2018-11-17T11:50:38.946Z"
-    },
-    "9cae7e2e-ea99-53a2-b4f4-f267ac52f846": {
-      "id": "9cae7e2e-ea99-53a2-b4f4-f267ac52f846",
-      "children": [],
-      "parent": "d40bf296-6c0e-51cb-a8b7-9ee9823921af",
-      "internal": {
-        "contentDigest": "e6c5f32f0aeeebcc9c87251163e55d28",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "358d58e6-a077-5667-b7c4-0d40369a1fad": {
-      "id": "358d58e6-a077-5667-b7c4-0d40369a1fad",
-      "children": [
-        "23f5e43e-5962-5952-ba22-f864dcb0c303"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_01.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_01.jpg",
-      "relativePath": "cartasu.ga_01.jpg",
-      "extension": "jpg",
-      "size": 1444364,
-      "prettySize": "1.44 MB",
-      "modifiedTime": "2018-11-17T11:50:38.946Z",
-      "accessTime": "2018-12-08T12:40:36.939Z",
-      "changeTime": "2018-11-17T12:21:23.582Z",
-      "birthTime": "2018-11-17T11:50:38.934Z",
-      "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_01.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_01",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8597273820,
-      "blocks": 2824,
-      "atimeMs": 1544272836939.158,
-      "mtimeMs": 1542455438945.843,
-      "ctimeMs": 1542457283582.2969,
-      "birthtimeMs": 1542455438934.1653,
-      "atime": "2018-12-08T12:40:36.939Z",
-      "mtime": "2018-11-17T11:50:38.946Z",
-      "ctime": "2018-11-17T12:21:23.582Z",
-      "birthtime": "2018-11-17T11:50:38.934Z"
-    },
-    "23f5e43e-5962-5952-ba22-f864dcb0c303": {
-      "id": "23f5e43e-5962-5952-ba22-f864dcb0c303",
-      "children": [],
-      "parent": "358d58e6-a077-5667-b7c4-0d40369a1fad",
-      "internal": {
-        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "5b454217-80d9-5d6b-8b06-d5a4564a1e08": {
-      "id": "5b454217-80d9-5d6b-8b06-d5a4564a1e08",
-      "children": [
-        "eb255724-e871-5be3-9865-dd75640fb235"
+        "0d8649be-2e1b-5305-9e10-e77670473a20"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1142,17 +1039,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_12.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_12.jpg",
       "relativePath": "cartasu.ga_12.jpg",
       "extension": "jpg",
       "size": 802323,
       "prettySize": "802 kB",
-      "modifiedTime": "2018-12-08T17:03:21.029Z",
-      "accessTime": "2018-12-08T17:08:54.081Z",
-      "changeTime": "2018-12-08T17:08:14.503Z",
-      "birthTime": "2018-12-08T17:03:18.974Z",
+      "modifiedTime": "2019-02-04T14:31:32.373Z",
+      "accessTime": "2019-02-04T16:38:43.597Z",
+      "changeTime": "2019-02-04T14:31:32.373Z",
+      "birthTime": "2019-02-04T14:31:32.369Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_12.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_12",
@@ -1164,31 +1061,78 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455157,
-      "blocks": 1664,
-      "atimeMs": 1544288934080.7188,
-      "mtimeMs": 1544288601028.7363,
-      "ctimeMs": 1544288894502.6587,
-      "birthtimeMs": 1544288598973.9294,
-      "atime": "2018-12-08T17:08:54.081Z",
-      "mtime": "2018-12-08T17:03:21.029Z",
-      "ctime": "2018-12-08T17:08:14.503Z",
-      "birthtime": "2018-12-08T17:03:18.974Z"
+      "ino": 4682351,
+      "blocks": 1568,
+      "atimeMs": 1549298323597.085,
+      "mtimeMs": 1549290692373.2402,
+      "ctimeMs": 1549290692373.2402,
+      "birthtimeMs": 1549290692369.3027,
+      "atime": "2019-02-04T16:38:43.597Z",
+      "mtime": "2019-02-04T14:31:32.373Z",
+      "ctime": "2019-02-04T14:31:32.373Z",
+      "birthtime": "2019-02-04T14:31:32.369Z"
     },
-    "eb255724-e871-5be3-9865-dd75640fb235": {
-      "id": "eb255724-e871-5be3-9865-dd75640fb235",
+    "0d8649be-2e1b-5305-9e10-e77670473a20": {
+      "id": "0d8649be-2e1b-5305-9e10-e77670473a20",
       "children": [],
-      "parent": "5b454217-80d9-5d6b-8b06-d5a4564a1e08",
+      "parent": "65a4df99-b450-5f1e-aed8-535392ab5bac",
       "internal": {
         "contentDigest": "dec4db0772077ffea740ad8ab4701c98",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "02b8ca09-6a86-53d2-b985-ee8ca90e6abe": {
-      "id": "02b8ca09-6a86-53d2-b985-ee8ca90e6abe",
+    "559ae45a-cfe0-5897-9dd8-3a7d079bd333": {
+      "id": "559ae45a-cfe0-5897-9dd8-3a7d079bd333",
       "children": [
-        "d4d6828a-ea52-507e-a005-660aaf183343"
+        "f45c89ec-eeec-51f9-a130-6aede97e6afd"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e6c5f32f0aeeebcc9c87251163e55d28",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_02.jpg",
+      "relativePath": "cartasu.ga_02.jpg",
+      "extension": "jpg",
+      "size": 867301,
+      "prettySize": "867 kB",
+      "modifiedTime": "2019-02-04T14:31:32.308Z",
+      "accessTime": "2019-02-04T16:38:43.577Z",
+      "changeTime": "2019-02-04T14:31:32.308Z",
+      "birthTime": "2019-02-04T14:31:32.304Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_02.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_02",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682341,
+      "blocks": 1696,
+      "atimeMs": 1549298323576.5479,
+      "mtimeMs": 1549290692308.076,
+      "ctimeMs": 1549290692308.076,
+      "birthtimeMs": 1549290692304.1643,
+      "atime": "2019-02-04T16:38:43.577Z",
+      "mtime": "2019-02-04T14:31:32.308Z",
+      "ctime": "2019-02-04T14:31:32.308Z",
+      "birthtime": "2019-02-04T14:31:32.304Z"
+    },
+    "64837150-baa0-5d34-b414-0fef5c6f7a3b": {
+      "id": "64837150-baa0-5d34-b414-0fef5c6f7a3b",
+      "children": [
+        "460198ea-e137-5216-b21f-6c88b6cacde3"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1199,17 +1143,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_10.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_10.jpg",
       "relativePath": "cartasu.ga_10.jpg",
       "extension": "jpg",
       "size": 915009,
       "prettySize": "915 kB",
-      "modifiedTime": "2018-12-08T17:02:24.261Z",
-      "accessTime": "2018-12-08T17:08:49.176Z",
-      "changeTime": "2018-12-08T17:08:14.509Z",
-      "birthTime": "2018-12-08T17:02:22.286Z",
+      "modifiedTime": "2019-02-04T14:31:32.359Z",
+      "accessTime": "2019-02-04T16:38:43.593Z",
+      "changeTime": "2019-02-04T14:31:32.359Z",
+      "birthTime": "2019-02-04T14:31:32.355Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_10.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_10",
@@ -1221,88 +1165,41 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455163,
+      "ino": 4682349,
       "blocks": 1792,
-      "atimeMs": 1544288929176.2786,
-      "mtimeMs": 1544288544261.436,
-      "ctimeMs": 1544288894508.6055,
-      "birthtimeMs": 1544288542286.4424,
-      "atime": "2018-12-08T17:08:49.176Z",
-      "mtime": "2018-12-08T17:02:24.261Z",
-      "ctime": "2018-12-08T17:08:14.509Z",
-      "birthtime": "2018-12-08T17:02:22.286Z"
+      "atimeMs": 1549298323592.663,
+      "mtimeMs": 1549290692359.3418,
+      "ctimeMs": 1549290692359.3418,
+      "birthtimeMs": 1549290692354.5757,
+      "atime": "2019-02-04T16:38:43.593Z",
+      "mtime": "2019-02-04T14:31:32.359Z",
+      "ctime": "2019-02-04T14:31:32.359Z",
+      "birthtime": "2019-02-04T14:31:32.355Z"
     },
-    "d4d6828a-ea52-507e-a005-660aaf183343": {
-      "id": "d4d6828a-ea52-507e-a005-660aaf183343",
+    "f45c89ec-eeec-51f9-a130-6aede97e6afd": {
+      "id": "f45c89ec-eeec-51f9-a130-6aede97e6afd",
       "children": [],
-      "parent": "02b8ca09-6a86-53d2-b985-ee8ca90e6abe",
+      "parent": "559ae45a-cfe0-5897-9dd8-3a7d079bd333",
+      "internal": {
+        "contentDigest": "e6c5f32f0aeeebcc9c87251163e55d28",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "460198ea-e137-5216-b21f-6c88b6cacde3": {
+      "id": "460198ea-e137-5216-b21f-6c88b6cacde3",
+      "children": [],
+      "parent": "64837150-baa0-5d34-b414-0fef5c6f7a3b",
       "internal": {
         "contentDigest": "759116e5453cbeeb9715b05dc30fd250",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "bc0c448f-8e00-55c8-a66a-1c7c4c55ba70": {
-      "id": "bc0c448f-8e00-55c8-a66a-1c7c4c55ba70",
+    "e5db9304-77ca-575b-9adf-b82127398d8c": {
+      "id": "e5db9304-77ca-575b-9adf-b82127398d8c",
       "children": [
-        "115f18f3-a3df-5acc-acbf-c1e702ef1e78"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "be9ea919cd66b74b05e37765becac7ab",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_15.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_15.jpg",
-      "relativePath": "cartasu.ga_15.jpg",
-      "extension": "jpg",
-      "size": 978998,
-      "prettySize": "979 kB",
-      "modifiedTime": "2018-12-08T17:07:14.507Z",
-      "accessTime": "2018-12-08T17:09:02.320Z",
-      "changeTime": "2018-12-08T17:08:14.506Z",
-      "birthTime": "2018-12-08T17:07:12.629Z",
-      "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_15.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_15",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8597455160,
-      "blocks": 1920,
-      "atimeMs": 1544288942320.023,
-      "mtimeMs": 1544288834506.9856,
-      "ctimeMs": 1544288894505.5032,
-      "birthtimeMs": 1544288832628.6028,
-      "atime": "2018-12-08T17:09:02.320Z",
-      "mtime": "2018-12-08T17:07:14.507Z",
-      "ctime": "2018-12-08T17:08:14.506Z",
-      "birthtime": "2018-12-08T17:07:12.629Z"
-    },
-    "115f18f3-a3df-5acc-acbf-c1e702ef1e78": {
-      "id": "115f18f3-a3df-5acc-acbf-c1e702ef1e78",
-      "children": [],
-      "parent": "bc0c448f-8e00-55c8-a66a-1c7c4c55ba70",
-      "internal": {
-        "contentDigest": "be9ea919cd66b74b05e37765becac7ab",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "7759b5b4-2f10-503d-8b5c-5a83567df4c7": {
-      "id": "7759b5b4-2f10-503d-8b5c-5a83567df4c7",
-      "children": [
-        "db9e4705-ad58-5891-a753-dc082d120ed9"
+        "2c5693be-5470-5b09-9255-181386dd530f"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1313,17 +1210,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_03.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_03.jpg",
       "relativePath": "cartasu.ga_03.jpg",
       "extension": "jpg",
       "size": 1038787,
       "prettySize": "1.04 MB",
-      "modifiedTime": "2018-12-08T16:59:01.303Z",
-      "accessTime": "2018-12-08T17:08:30.131Z",
-      "changeTime": "2018-12-08T17:08:14.513Z",
-      "birthTime": "2018-12-08T16:58:59.222Z",
+      "modifiedTime": "2019-02-04T14:31:32.313Z",
+      "accessTime": "2019-02-04T16:38:43.578Z",
+      "changeTime": "2019-02-04T14:31:32.313Z",
+      "birthTime": "2019-02-04T14:31:32.308Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_03.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_03",
@@ -1335,31 +1232,88 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455167,
-      "blocks": 2048,
-      "atimeMs": 1544288910130.8916,
-      "mtimeMs": 1544288341302.9844,
-      "ctimeMs": 1544288894513.4314,
-      "birthtimeMs": 1544288339221.5842,
-      "atime": "2018-12-08T17:08:30.131Z",
-      "mtime": "2018-12-08T16:59:01.303Z",
-      "ctime": "2018-12-08T17:08:14.513Z",
-      "birthtime": "2018-12-08T16:58:59.222Z"
+      "ino": 4682342,
+      "blocks": 2032,
+      "atimeMs": 1549298323577.7844,
+      "mtimeMs": 1549290692313.1504,
+      "ctimeMs": 1549290692313.1504,
+      "birthtimeMs": 1549290692308.1616,
+      "atime": "2019-02-04T16:38:43.578Z",
+      "mtime": "2019-02-04T14:31:32.313Z",
+      "ctime": "2019-02-04T14:31:32.313Z",
+      "birthtime": "2019-02-04T14:31:32.308Z"
     },
-    "db9e4705-ad58-5891-a753-dc082d120ed9": {
-      "id": "db9e4705-ad58-5891-a753-dc082d120ed9",
+    "f75812e2-d42b-5946-a8b5-2399f24d12fe": {
+      "id": "f75812e2-d42b-5946-a8b5-2399f24d12fe",
+      "children": [
+        "4ae8c0df-1b3a-5193-9c7e-59c04e19444c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "be9ea919cd66b74b05e37765becac7ab",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_15.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_15.jpg",
+      "relativePath": "cartasu.ga_15.jpg",
+      "extension": "jpg",
+      "size": 978998,
+      "prettySize": "979 kB",
+      "modifiedTime": "2019-02-04T14:31:32.386Z",
+      "accessTime": "2019-02-04T16:38:43.602Z",
+      "changeTime": "2019-02-04T14:31:32.386Z",
+      "birthTime": "2019-02-04T14:31:32.385Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_15.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_15",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682354,
+      "blocks": 1920,
+      "atimeMs": 1549298323601.919,
+      "mtimeMs": 1549290692386.337,
+      "ctimeMs": 1549290692386.337,
+      "birthtimeMs": 1549290692385.2761,
+      "atime": "2019-02-04T16:38:43.602Z",
+      "mtime": "2019-02-04T14:31:32.386Z",
+      "ctime": "2019-02-04T14:31:32.386Z",
+      "birthtime": "2019-02-04T14:31:32.385Z"
+    },
+    "2c5693be-5470-5b09-9255-181386dd530f": {
+      "id": "2c5693be-5470-5b09-9255-181386dd530f",
       "children": [],
-      "parent": "7759b5b4-2f10-503d-8b5c-5a83567df4c7",
+      "parent": "e5db9304-77ca-575b-9adf-b82127398d8c",
       "internal": {
         "contentDigest": "6848f4cf22beadb016475e5cd7383849",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "39f000fc-4a29-576e-96d0-b99ea5725a2a": {
-      "id": "39f000fc-4a29-576e-96d0-b99ea5725a2a",
+    "4ae8c0df-1b3a-5193-9c7e-59c04e19444c": {
+      "id": "4ae8c0df-1b3a-5193-9c7e-59c04e19444c",
+      "children": [],
+      "parent": "f75812e2-d42b-5946-a8b5-2399f24d12fe",
+      "internal": {
+        "contentDigest": "be9ea919cd66b74b05e37765becac7ab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4885f66d-873a-52a2-a0c1-75ee161de15b": {
+      "id": "4885f66d-873a-52a2-a0c1-75ee161de15b",
       "children": [
-        "d24c8909-3904-51cb-b62c-6212da8c36c1"
+        "ce3d5ba7-87ba-5ef7-b8a1-766382b0211f"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1370,17 +1324,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_14.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_14.jpg",
       "relativePath": "cartasu.ga_14.jpg",
       "extension": "jpg",
       "size": 1286730,
       "prettySize": "1.29 MB",
-      "modifiedTime": "2018-12-08T17:06:37.968Z",
-      "accessTime": "2018-12-08T17:08:59.150Z",
-      "changeTime": "2018-12-08T17:08:14.505Z",
-      "birthTime": "2018-12-08T17:06:36.052Z",
+      "modifiedTime": "2019-02-04T14:31:32.385Z",
+      "accessTime": "2019-02-04T16:38:43.600Z",
+      "changeTime": "2019-02-04T14:31:32.385Z",
+      "birthTime": "2019-02-04T14:31:32.380Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_14.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_14",
@@ -1392,78 +1346,31 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455159,
-      "blocks": 4224,
-      "atimeMs": 1544288939149.9485,
-      "mtimeMs": 1544288797968.375,
-      "ctimeMs": 1544288894504.564,
-      "birthtimeMs": 1544288796051.9426,
-      "atime": "2018-12-08T17:08:59.150Z",
-      "mtime": "2018-12-08T17:06:37.968Z",
-      "ctime": "2018-12-08T17:08:14.505Z",
-      "birthtime": "2018-12-08T17:06:36.052Z"
+      "ino": 4682353,
+      "blocks": 2520,
+      "atimeMs": 1549298323600.1487,
+      "mtimeMs": 1549290692385.0925,
+      "ctimeMs": 1549290692385.0925,
+      "birthtimeMs": 1549290692379.7212,
+      "atime": "2019-02-04T16:38:43.600Z",
+      "mtime": "2019-02-04T14:31:32.385Z",
+      "ctime": "2019-02-04T14:31:32.385Z",
+      "birthtime": "2019-02-04T14:31:32.380Z"
     },
-    "d24c8909-3904-51cb-b62c-6212da8c36c1": {
-      "id": "d24c8909-3904-51cb-b62c-6212da8c36c1",
+    "ce3d5ba7-87ba-5ef7-b8a1-766382b0211f": {
+      "id": "ce3d5ba7-87ba-5ef7-b8a1-766382b0211f",
       "children": [],
-      "parent": "39f000fc-4a29-576e-96d0-b99ea5725a2a",
+      "parent": "4885f66d-873a-52a2-a0c1-75ee161de15b",
       "internal": {
         "contentDigest": "cbaa5a07247d2d584dc04f8cf5dd9365",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "23ed874a-0d59-51c4-bc7e-7eb5b320c2f9": {
-      "id": "23ed874a-0d59-51c4-bc7e-7eb5b320c2f9",
+    "ee97279b-dde6-5921-b60f-b6c6e3c747e6": {
+      "id": "ee97279b-dde6-5921-b60f-b6c6e3c747e6",
       "children": [
-        "0f8bf67b-2be0-54ef-b2b6-2faf84d3ae5b"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ee4b8653394273efa88fed7478b60021",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_04.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_04.jpg",
-      "relativePath": "cartasu.ga_04.jpg",
-      "extension": "jpg",
-      "size": 1427095,
-      "prettySize": "1.43 MB",
-      "modifiedTime": "2018-12-08T16:59:23.112Z",
-      "accessTime": "2018-12-08T17:08:32.576Z",
-      "changeTime": "2018-12-08T17:08:14.512Z",
-      "birthTime": "2018-12-08T16:59:21.201Z",
-      "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_04.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_04",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8597455166,
-      "blocks": 4224,
-      "atimeMs": 1544288912576.4902,
-      "mtimeMs": 1544288363112.49,
-      "ctimeMs": 1544288894512.2957,
-      "birthtimeMs": 1544288361200.8677,
-      "atime": "2018-12-08T17:08:32.576Z",
-      "mtime": "2018-12-08T16:59:23.112Z",
-      "ctime": "2018-12-08T17:08:14.512Z",
-      "birthtime": "2018-12-08T16:59:21.201Z"
-    },
-    "212b96ea-4593-5586-b1e6-4c0ad69a2e6d": {
-      "id": "212b96ea-4593-5586-b1e6-4c0ad69a2e6d",
-      "children": [
-        "b289213c-9f58-55d7-95cc-eafb20d36213"
+        "1dcf7810-1a01-5691-bd47-95144c3009e5"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1474,17 +1381,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_07.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_07.jpg",
       "relativePath": "cartasu.ga_07.jpg",
       "extension": "jpg",
       "size": 1421038,
       "prettySize": "1.42 MB",
-      "modifiedTime": "2018-12-08T17:01:29.187Z",
-      "accessTime": "2018-12-08T17:08:40.737Z",
-      "changeTime": "2018-12-08T17:08:14.502Z",
-      "birthTime": "2018-12-08T17:01:27.273Z",
+      "modifiedTime": "2019-02-04T14:31:32.339Z",
+      "accessTime": "2019-02-04T16:38:43.586Z",
+      "changeTime": "2019-02-04T14:31:32.339Z",
+      "birthTime": "2019-02-04T14:31:32.332Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_07.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_07",
@@ -1496,41 +1403,145 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455156,
-      "blocks": 4224,
-      "atimeMs": 1544288920737.309,
-      "mtimeMs": 1544288489186.9946,
-      "ctimeMs": 1544288894501.5435,
-      "birthtimeMs": 1544288487273.3555,
-      "atime": "2018-12-08T17:08:40.737Z",
-      "mtime": "2018-12-08T17:01:29.187Z",
-      "ctime": "2018-12-08T17:08:14.502Z",
-      "birthtime": "2018-12-08T17:01:27.273Z"
+      "ino": 4682346,
+      "blocks": 2776,
+      "atimeMs": 1549298323586.2144,
+      "mtimeMs": 1549290692338.6887,
+      "ctimeMs": 1549290692338.6887,
+      "birthtimeMs": 1549290692332.257,
+      "atime": "2019-02-04T16:38:43.586Z",
+      "mtime": "2019-02-04T14:31:32.339Z",
+      "ctime": "2019-02-04T14:31:32.339Z",
+      "birthtime": "2019-02-04T14:31:32.332Z"
     },
-    "0f8bf67b-2be0-54ef-b2b6-2faf84d3ae5b": {
-      "id": "0f8bf67b-2be0-54ef-b2b6-2faf84d3ae5b",
-      "children": [],
-      "parent": "23ed874a-0d59-51c4-bc7e-7eb5b320c2f9",
+    "ca835bc2-ceed-5c3b-899b-1eadc5fefad4": {
+      "id": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
+      "children": [
+        "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_01.jpg",
+      "relativePath": "cartasu.ga_01.jpg",
+      "extension": "jpg",
+      "size": 1444364,
+      "prettySize": "1.44 MB",
+      "modifiedTime": "2019-02-04T14:31:32.304Z",
+      "accessTime": "2019-02-04T16:38:43.575Z",
+      "changeTime": "2019-02-04T14:31:32.304Z",
+      "birthTime": "2019-02-04T14:31:32.298Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_01.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682340,
+      "blocks": 2824,
+      "atimeMs": 1549298323574.5745,
+      "mtimeMs": 1549290692304.043,
+      "ctimeMs": 1549290692304.043,
+      "birthtimeMs": 1549290692297.7761,
+      "atime": "2019-02-04T16:38:43.575Z",
+      "mtime": "2019-02-04T14:31:32.304Z",
+      "ctime": "2019-02-04T14:31:32.304Z",
+      "birthtime": "2019-02-04T14:31:32.298Z"
+    },
+    "495df608-39c8-5ad4-903e-41f6106c34c9": {
+      "id": "495df608-39c8-5ad4-903e-41f6106c34c9",
+      "children": [
+        "08db368c-c92b-5023-b19b-198c08629922"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "ee4b8653394273efa88fed7478b60021",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_04.jpg",
+      "relativePath": "cartasu.ga_04.jpg",
+      "extension": "jpg",
+      "size": 1427095,
+      "prettySize": "1.43 MB",
+      "modifiedTime": "2019-02-04T14:31:32.319Z",
+      "accessTime": "2019-02-04T16:38:43.579Z",
+      "changeTime": "2019-02-04T14:31:32.319Z",
+      "birthTime": "2019-02-04T14:31:32.313Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_04.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_04",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682343,
+      "blocks": 2792,
+      "atimeMs": 1549298323579.3489,
+      "mtimeMs": 1549290692319.041,
+      "ctimeMs": 1549290692319.041,
+      "birthtimeMs": 1549290692313.294,
+      "atime": "2019-02-04T16:38:43.579Z",
+      "mtime": "2019-02-04T14:31:32.319Z",
+      "ctime": "2019-02-04T14:31:32.319Z",
+      "birthtime": "2019-02-04T14:31:32.313Z"
     },
-    "b289213c-9f58-55d7-95cc-eafb20d36213": {
-      "id": "b289213c-9f58-55d7-95cc-eafb20d36213",
+    "1dcf7810-1a01-5691-bd47-95144c3009e5": {
+      "id": "1dcf7810-1a01-5691-bd47-95144c3009e5",
       "children": [],
-      "parent": "212b96ea-4593-5586-b1e6-4c0ad69a2e6d",
+      "parent": "ee97279b-dde6-5921-b60f-b6c6e3c747e6",
       "internal": {
         "contentDigest": "73156c6f70e76eb691d00f0a2b2cf00a",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "95127694-0e35-5dfa-b313-5d1ad0ffaca2": {
-      "id": "95127694-0e35-5dfa-b313-5d1ad0ffaca2",
+    "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9": {
+      "id": "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9",
+      "children": [],
+      "parent": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
+      "internal": {
+        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "08db368c-c92b-5023-b19b-198c08629922": {
+      "id": "08db368c-c92b-5023-b19b-198c08629922",
+      "children": [],
+      "parent": "495df608-39c8-5ad4-903e-41f6106c34c9",
+      "internal": {
+        "contentDigest": "ee4b8653394273efa88fed7478b60021",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0861df91-4f6d-569c-889a-ce31fa2804ae": {
+      "id": "0861df91-4f6d-569c-889a-ce31fa2804ae",
       "children": [
-        "08cd051a-8f07-5adf-88da-597234f0a52b"
+        "db9b635d-eb76-59d4-bde0-66ac70a49092"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1541,17 +1552,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_13.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_13.jpg",
       "relativePath": "cartasu.ga_13.jpg",
       "extension": "jpg",
       "size": 1456279,
       "prettySize": "1.46 MB",
-      "modifiedTime": "2018-12-08T17:06:07.656Z",
-      "accessTime": "2018-12-08T17:08:56.030Z",
-      "changeTime": "2018-12-08T17:08:14.504Z",
-      "birthTime": "2018-12-08T17:06:05.543Z",
+      "modifiedTime": "2019-02-04T14:31:32.380Z",
+      "accessTime": "2019-02-04T16:38:43.598Z",
+      "changeTime": "2019-02-04T14:31:32.380Z",
+      "birthTime": "2019-02-04T14:31:32.373Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_13.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_13",
@@ -1563,31 +1574,31 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455158,
-      "blocks": 4224,
-      "atimeMs": 1544288936030.3042,
-      "mtimeMs": 1544288767656.362,
-      "ctimeMs": 1544288894503.5466,
-      "birthtimeMs": 1544288765543.13,
-      "atime": "2018-12-08T17:08:56.030Z",
-      "mtime": "2018-12-08T17:06:07.656Z",
-      "ctime": "2018-12-08T17:08:14.504Z",
-      "birthtime": "2018-12-08T17:06:05.543Z"
+      "ino": 4682352,
+      "blocks": 2848,
+      "atimeMs": 1549298323598.1848,
+      "mtimeMs": 1549290692379.5652,
+      "ctimeMs": 1549290692379.5652,
+      "birthtimeMs": 1549290692373.3298,
+      "atime": "2019-02-04T16:38:43.598Z",
+      "mtime": "2019-02-04T14:31:32.380Z",
+      "ctime": "2019-02-04T14:31:32.380Z",
+      "birthtime": "2019-02-04T14:31:32.373Z"
     },
-    "08cd051a-8f07-5adf-88da-597234f0a52b": {
-      "id": "08cd051a-8f07-5adf-88da-597234f0a52b",
+    "db9b635d-eb76-59d4-bde0-66ac70a49092": {
+      "id": "db9b635d-eb76-59d4-bde0-66ac70a49092",
       "children": [],
-      "parent": "95127694-0e35-5dfa-b313-5d1ad0ffaca2",
+      "parent": "0861df91-4f6d-569c-889a-ce31fa2804ae",
       "internal": {
         "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "b107d570-69e1-5757-8a97-9f536c34d6a0": {
-      "id": "b107d570-69e1-5757-8a97-9f536c34d6a0",
+    "f4d78613-3138-5851-80f1-2d53593d78df": {
+      "id": "f4d78613-3138-5851-80f1-2d53593d78df",
       "children": [
-        "1bb37daf-b697-50d7-8e14-b7ebaf39c01a"
+        "73e103c9-05fb-5086-8a4f-31ba0ed05727"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1598,17 +1609,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_06.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_06.jpg",
       "relativePath": "cartasu.ga_06.jpg",
       "extension": "jpg",
       "size": 1630166,
       "prettySize": "1.63 MB",
-      "modifiedTime": "2018-12-08T17:01:06.995Z",
-      "accessTime": "2018-12-08T17:08:37.823Z",
-      "changeTime": "2018-12-08T17:08:14.510Z",
-      "birthTime": "2018-12-08T17:01:04.981Z",
+      "modifiedTime": "2019-02-04T14:31:32.332Z",
+      "accessTime": "2019-02-04T16:38:43.584Z",
+      "changeTime": "2019-02-04T14:31:32.332Z",
+      "birthTime": "2019-02-04T14:31:32.325Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_06.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_06",
@@ -1620,31 +1631,31 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455164,
-      "blocks": 4224,
-      "atimeMs": 1544288917822.6482,
-      "mtimeMs": 1544288466995.3193,
-      "ctimeMs": 1544288894509.7168,
-      "birthtimeMs": 1544288464980.6543,
-      "atime": "2018-12-08T17:08:37.823Z",
-      "mtime": "2018-12-08T17:01:06.995Z",
-      "ctime": "2018-12-08T17:08:14.510Z",
-      "birthtime": "2018-12-08T17:01:04.981Z"
+      "ino": 4682345,
+      "blocks": 3184,
+      "atimeMs": 1549298323583.8943,
+      "mtimeMs": 1549290692332.1118,
+      "ctimeMs": 1549290692332.1118,
+      "birthtimeMs": 1549290692324.705,
+      "atime": "2019-02-04T16:38:43.584Z",
+      "mtime": "2019-02-04T14:31:32.332Z",
+      "ctime": "2019-02-04T14:31:32.332Z",
+      "birthtime": "2019-02-04T14:31:32.325Z"
     },
-    "1bb37daf-b697-50d7-8e14-b7ebaf39c01a": {
-      "id": "1bb37daf-b697-50d7-8e14-b7ebaf39c01a",
+    "73e103c9-05fb-5086-8a4f-31ba0ed05727": {
+      "id": "73e103c9-05fb-5086-8a4f-31ba0ed05727",
       "children": [],
-      "parent": "b107d570-69e1-5757-8a97-9f536c34d6a0",
+      "parent": "f4d78613-3138-5851-80f1-2d53593d78df",
       "internal": {
         "contentDigest": "1a26036587655ac25eaacc692321fdb1",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "48133f52-74d8-51cc-986a-abf9c493c959": {
-      "id": "48133f52-74d8-51cc-986a-abf9c493c959",
+    "9a9621e5-938d-59a2-bffa-21779c536752": {
+      "id": "9a9621e5-938d-59a2-bffa-21779c536752",
       "children": [
-        "80dcb587-7cc2-540d-bd15-bbd830d81d7b"
+        "cbe9e841-e20e-54f6-8800-1426825dbb4d"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1655,17 +1666,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_08.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_08.jpg",
       "relativePath": "cartasu.ga_08.jpg",
       "extension": "jpg",
       "size": 1678108,
       "prettySize": "1.68 MB",
-      "modifiedTime": "2018-12-08T17:01:47.736Z",
-      "accessTime": "2018-12-08T17:08:43.746Z",
-      "changeTime": "2018-12-08T17:08:14.506Z",
-      "birthTime": "2018-12-08T17:01:45.676Z",
+      "modifiedTime": "2019-02-04T14:31:32.347Z",
+      "accessTime": "2019-02-04T16:38:43.588Z",
+      "changeTime": "2019-02-04T14:31:32.347Z",
+      "birthTime": "2019-02-04T14:31:32.339Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_08.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_08",
@@ -1677,88 +1688,31 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455161,
-      "blocks": 4224,
-      "atimeMs": 1544288923745.5603,
-      "mtimeMs": 1544288507735.7734,
-      "ctimeMs": 1544288894506.4382,
-      "birthtimeMs": 1544288505676.407,
-      "atime": "2018-12-08T17:08:43.746Z",
-      "mtime": "2018-12-08T17:01:47.736Z",
-      "ctime": "2018-12-08T17:08:14.506Z",
-      "birthtime": "2018-12-08T17:01:45.676Z"
+      "ino": 4682347,
+      "blocks": 3280,
+      "atimeMs": 1549298323588.148,
+      "mtimeMs": 1549290692346.6953,
+      "ctimeMs": 1549290692346.6953,
+      "birthtimeMs": 1549290692338.8052,
+      "atime": "2019-02-04T16:38:43.588Z",
+      "mtime": "2019-02-04T14:31:32.347Z",
+      "ctime": "2019-02-04T14:31:32.347Z",
+      "birthtime": "2019-02-04T14:31:32.339Z"
     },
-    "70e198a9-f899-58f4-b1b1-02ed76e5becc": {
-      "id": "70e198a9-f899-58f4-b1b1-02ed76e5becc",
-      "children": [
-        "d3a1ca5c-6387-5b22-850f-9f124693603c"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_09.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_09.jpg",
-      "relativePath": "cartasu.ga_09.jpg",
-      "extension": "jpg",
-      "size": 1659613,
-      "prettySize": "1.66 MB",
-      "modifiedTime": "2018-12-08T17:02:07.399Z",
-      "accessTime": "2018-12-08T17:08:46.110Z",
-      "changeTime": "2018-12-08T17:08:14.508Z",
-      "birthTime": "2018-12-08T17:02:05.360Z",
-      "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_09.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_09",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8597455162,
-      "blocks": 4224,
-      "atimeMs": 1544288926109.7485,
-      "mtimeMs": 1544288527399.241,
-      "ctimeMs": 1544288894507.5112,
-      "birthtimeMs": 1544288525360.107,
-      "atime": "2018-12-08T17:08:46.110Z",
-      "mtime": "2018-12-08T17:02:07.399Z",
-      "ctime": "2018-12-08T17:08:14.508Z",
-      "birthtime": "2018-12-08T17:02:05.360Z"
-    },
-    "80dcb587-7cc2-540d-bd15-bbd830d81d7b": {
-      "id": "80dcb587-7cc2-540d-bd15-bbd830d81d7b",
+    "cbe9e841-e20e-54f6-8800-1426825dbb4d": {
+      "id": "cbe9e841-e20e-54f6-8800-1426825dbb4d",
       "children": [],
-      "parent": "48133f52-74d8-51cc-986a-abf9c493c959",
+      "parent": "9a9621e5-938d-59a2-bffa-21779c536752",
       "internal": {
         "contentDigest": "5a218c9dd79a780dfc2241be15a3aa3e",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "d3a1ca5c-6387-5b22-850f-9f124693603c": {
-      "id": "d3a1ca5c-6387-5b22-850f-9f124693603c",
-      "children": [],
-      "parent": "70e198a9-f899-58f4-b1b1-02ed76e5becc",
-      "internal": {
-        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "89d40f98-184c-5516-9eef-45b8c38c70ce": {
-      "id": "89d40f98-184c-5516-9eef-45b8c38c70ce",
+    "5728ad6b-1f28-5cf0-bb7c-1eba0cb48eab": {
+      "id": "5728ad6b-1f28-5cf0-bb7c-1eba0cb48eab",
       "children": [
-        "b64cca67-9d65-5810-af0b-bf499ad2f06f"
+        "504e010d-9da9-5777-aa75-ada1f666a346"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1769,17 +1723,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_05.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_05.jpg",
       "relativePath": "cartasu.ga_05.jpg",
       "extension": "jpg",
       "size": 1789827,
       "prettySize": "1.79 MB",
-      "modifiedTime": "2018-12-08T17:00:12.130Z",
-      "accessTime": "2018-12-08T17:08:34.943Z",
-      "changeTime": "2018-12-08T17:08:14.511Z",
-      "birthTime": "2018-12-08T17:00:10.088Z",
+      "modifiedTime": "2019-02-04T14:31:32.325Z",
+      "accessTime": "2019-02-04T16:38:43.581Z",
+      "changeTime": "2019-02-04T14:31:32.325Z",
+      "birthTime": "2019-02-04T14:31:32.319Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_05.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_05",
@@ -1791,31 +1745,88 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455165,
-      "blocks": 4224,
-      "atimeMs": 1544288914942.8948,
-      "mtimeMs": 1544288412130.3792,
-      "ctimeMs": 1544288894511.0686,
-      "birthtimeMs": 1544288410088.0132,
-      "atime": "2018-12-08T17:08:34.943Z",
-      "mtime": "2018-12-08T17:00:12.130Z",
-      "ctime": "2018-12-08T17:08:14.511Z",
-      "birthtime": "2018-12-08T17:00:10.088Z"
+      "ino": 4682344,
+      "blocks": 3496,
+      "atimeMs": 1549298323581.376,
+      "mtimeMs": 1549290692324.5476,
+      "ctimeMs": 1549290692324.5476,
+      "birthtimeMs": 1549290692319.1616,
+      "atime": "2019-02-04T16:38:43.581Z",
+      "mtime": "2019-02-04T14:31:32.325Z",
+      "ctime": "2019-02-04T14:31:32.325Z",
+      "birthtime": "2019-02-04T14:31:32.319Z"
     },
-    "b64cca67-9d65-5810-af0b-bf499ad2f06f": {
-      "id": "b64cca67-9d65-5810-af0b-bf499ad2f06f",
+    "504e010d-9da9-5777-aa75-ada1f666a346": {
+      "id": "504e010d-9da9-5777-aa75-ada1f666a346",
       "children": [],
-      "parent": "89d40f98-184c-5516-9eef-45b8c38c70ce",
+      "parent": "5728ad6b-1f28-5cf0-bb7c-1eba0cb48eab",
       "internal": {
         "contentDigest": "05e626069ea6709cf39451f4beaf2f30",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "61c27ca2-256b-51ec-9bda-9ffb5b655473": {
-      "id": "61c27ca2-256b-51ec-9bda-9ffb5b655473",
+    "4df5158c-b9b8-51d6-82a3-49bafc1036ce": {
+      "id": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
       "children": [
-        "d09f8fd4-17eb-5841-959e-7dbf3e0d4da4"
+        "28ae032f-f112-5fc8-910f-bfe5539ed715"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_09.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_09.jpg",
+      "relativePath": "cartasu.ga_09.jpg",
+      "extension": "jpg",
+      "size": 1659613,
+      "prettySize": "1.66 MB",
+      "modifiedTime": "2019-02-04T14:31:32.354Z",
+      "accessTime": "2019-02-04T16:38:43.590Z",
+      "changeTime": "2019-02-04T14:31:32.354Z",
+      "birthTime": "2019-02-04T14:31:32.347Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_09.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_09",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682348,
+      "blocks": 3248,
+      "atimeMs": 1549298323590.4128,
+      "mtimeMs": 1549290692354.4023,
+      "ctimeMs": 1549290692354.4023,
+      "birthtimeMs": 1549290692346.844,
+      "atime": "2019-02-04T16:38:43.590Z",
+      "mtime": "2019-02-04T14:31:32.354Z",
+      "ctime": "2019-02-04T14:31:32.354Z",
+      "birthtime": "2019-02-04T14:31:32.347Z"
+    },
+    "28ae032f-f112-5fc8-910f-bfe5539ed715": {
+      "id": "28ae032f-f112-5fc8-910f-bfe5539ed715",
+      "children": [],
+      "parent": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
+      "internal": {
+        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5329af99-fbec-5778-9312-34d1205331b9": {
+      "id": "5329af99-fbec-5778-9312-34d1205331b9",
+      "children": [
+        "94fa1dcc-af7b-5d72-9e96-b7878a752c78"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1826,17 +1837,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_11.jpg",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_11.jpg",
       "relativePath": "cartasu.ga_11.jpg",
       "extension": "jpg",
       "size": 2154979,
       "prettySize": "2.15 MB",
-      "modifiedTime": "2018-12-08T17:02:56.755Z",
-      "accessTime": "2018-12-08T17:08:51.655Z",
-      "changeTime": "2018-12-08T17:08:14.501Z",
-      "birthTime": "2018-12-08T17:02:54.697Z",
+      "modifiedTime": "2019-02-04T14:31:32.369Z",
+      "accessTime": "2019-02-04T16:38:43.594Z",
+      "changeTime": "2019-02-04T14:31:32.369Z",
+      "birthTime": "2019-02-04T14:31:32.359Z",
       "root": "/",
-      "dir": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/images",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
       "base": "cartasu.ga_11.jpg",
       "ext": ".jpg",
       "name": "cartasu.ga_11",
@@ -1848,21 +1859,21 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8597455155,
-      "blocks": 4224,
-      "atimeMs": 1544288931654.9905,
-      "mtimeMs": 1544288576755.0017,
-      "ctimeMs": 1544288894500.6885,
-      "birthtimeMs": 1544288574697.2336,
-      "atime": "2018-12-08T17:08:51.655Z",
-      "mtime": "2018-12-08T17:02:56.755Z",
-      "ctime": "2018-12-08T17:08:14.501Z",
-      "birthtime": "2018-12-08T17:02:54.697Z"
+      "ino": 4682350,
+      "blocks": 4216,
+      "atimeMs": 1549298323593.949,
+      "mtimeMs": 1549290692369.1104,
+      "ctimeMs": 1549290692369.1104,
+      "birthtimeMs": 1549290692359.4895,
+      "atime": "2019-02-04T16:38:43.594Z",
+      "mtime": "2019-02-04T14:31:32.369Z",
+      "ctime": "2019-02-04T14:31:32.369Z",
+      "birthtime": "2019-02-04T14:31:32.359Z"
     },
-    "d09f8fd4-17eb-5841-959e-7dbf3e0d4da4": {
-      "id": "d09f8fd4-17eb-5841-959e-7dbf3e0d4da4",
+    "94fa1dcc-af7b-5d72-9e96-b7878a752c78": {
+      "id": "94fa1dcc-af7b-5d72-9e96-b7878a752c78",
       "children": [],
-      "parent": "61c27ca2-256b-51ec-9bda-9ffb5b655473",
+      "parent": "5329af99-fbec-5778-9312-34d1205331b9",
       "internal": {
         "contentDigest": "841920b84752c5003f36a202ab5403db",
         "type": "ImageSharp",
@@ -1873,18 +1884,38 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73e5df4fb0353ddef7e4ff7a35bbe03f",
+        "contentDigest": "b5a08372d001201fe8f57d37c23015a2",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /index--old/": {
+      "jsonName": "index-old-0f4",
+      "internalComponentName": "ComponentIndexOld",
+      "path": "/index--old/",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js",
+      "componentChunkName": "component---src-pages-index-old-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js",
+      "id": "SitePage /index--old/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb82fa16fae6f423206cb46185755686",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1893,18 +1924,38 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "36856aa4373646b91ee38b4ca15a994a",
+        "contentDigest": "23c38389cc205863fc62bb1d698232bf",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /moontains/": {
+      "jsonName": "moontains-84e",
+      "internalComponentName": "ComponentMoontains",
+      "path": "/moontains/",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js",
+      "componentChunkName": "component---src-pages-moontains-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js",
+      "id": "SitePage /moontains/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6b568c7892f88ff5f49ed82e1da6657",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1913,18 +1964,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2cf2cf045dd2c8bb2133ec0bb696495b",
+        "contentDigest": "420839063a0a06367a3445e59295fa3b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1942,16 +1993,31 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "moontains-84e": "883/path---moontains-84-e-f86-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-old-0f4": "496/path---index-old-0-f-4-2ee-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-old-0-696": "134/path---index-old-0-696-e84-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
+    "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/404.js"
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
     },
-    "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
+    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
       "query": "",
-      "componentPath": "/Users/matteotressi/Documents/GitHub/trezi29.github.io/src/pages/index.js"
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js"
+    },
+    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js": {
+      "query": "",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js"
+    },
+    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js": {
+      "query": "",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js"
+    },
+    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js"
     }
   },
   "staticQueryComponents": {}

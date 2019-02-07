@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import ImagesLoaded from 'react-images-loaded';
+import Header from "../components/header"
 
 import '../styles/slideshow.scss'
 
@@ -29,6 +30,7 @@ export default class Slideshow extends Component {
   render() {
     return (
       <div>
+      <Header />
       <Helmet
         title={'cartasu.ga - ' + this.props.images[this.state.img].title}
       />
