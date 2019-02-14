@@ -25,6 +25,11 @@ const IndexPage = () => (
       photographer='Matteo Tressi'
       rightImage={true}
     />
+    <GalleryCard
+      title='moontains'
+      img={Moontains}
+      photographer='Matteo Tressi'
+    />
   </div>
 )
 

@@ -15,6 +15,18 @@ export default class Slideshow extends Component {
     };
   }
 
+// getting screen dimensions
+  // componentDidMount() {
+  //   this.updateWindowDimensions();
+  //   window.addEventListener('resize', this.updateWindowDimensions);
+  // }
+  //
+  // updateWindowDimensions() {
+  //   console.log({ width: window.innerWidth, height: window.innerHeight });
+  // }
+
+// gallery controls
+
   nextImg = () => {
     this.setState({ img: this.state.img + 1});
   }
