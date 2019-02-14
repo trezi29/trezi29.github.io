@@ -563,18 +563,20 @@
       "resolve": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.7",
+      "version": "2.0.20",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onPreInit"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.7",
+        "version": "2.0.20",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -605,12 +607,16 @@
             "version": "^1.0.0"
           },
           {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
             "name": "imagemin",
             "version": "^6.0.0"
           },
           {
             "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
+            "version": "^8.0.0"
           },
           {
             "name": "imagemin-pngquant",
@@ -618,7 +624,7 @@
           },
           {
             "name": "imagemin-webp",
-            "version": "^4.1.0"
+            "version": "^5.0.0"
           },
           {
             "name": "lodash",
@@ -642,7 +648,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.20.2"
+            "version": "^0.21.3"
           },
           {
             "name": "svgo",
@@ -659,6 +665,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -666,7 +676,7 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
@@ -675,7 +685,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a114709292a6b11fbff7e9d305f04def",
+        "contentDigest": "c711a0caf56b16c2c632c91982d20330",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -815,7 +825,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.7"
+            "version": "^2.0.20"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -971,12 +981,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-14T10:41:59.106Z",
+      "buildTime": "2019-02-14T16:57:38.141Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6b83d86ddc43a7454330d495cc5ee294",
+        "contentDigest": "56bdadcad6b14f20d4a2322b7b717d90",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -986,7 +996,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "21e64eca764417278184dbb61a9840f1",
+        "contentDigest": "9f1860a2a53600e6b537d50712169af3",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -998,7 +1008,7 @@
       "size": 544,
       "prettySize": "544 B",
       "modifiedTime": "2019-02-04T14:31:32.385Z",
-      "accessTime": "2019-02-14T10:42:02.990Z",
+      "accessTime": "2019-02-14T16:57:41.811Z",
       "changeTime": "2019-02-04T14:31:32.385Z",
       "birthTime": "2019-02-04T14:31:32.298Z",
       "root": "/",
@@ -1016,11 +1026,11 @@
       "blksize": 4096,
       "ino": 4682339,
       "blocks": 0,
-      "atimeMs": 1550140922989.7334,
+      "atimeMs": 1550163461811.1738,
       "mtimeMs": 1549290692385.2812,
       "ctimeMs": 1549290692385.2812,
       "birthtimeMs": 1549290692297.737,
-      "atime": "2019-02-14T10:42:02.990Z",
+      "atime": "2019-02-14T16:57:41.811Z",
       "mtime": "2019-02-04T14:31:32.385Z",
       "ctime": "2019-02-04T14:31:32.385Z",
       "birthtime": "2019-02-04T14:31:32.298Z"
@@ -1045,7 +1055,7 @@
       "size": 802323,
       "prettySize": "802 kB",
       "modifiedTime": "2019-02-04T14:31:32.373Z",
-      "accessTime": "2019-02-04T16:38:43.597Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.373Z",
       "birthTime": "2019-02-04T14:31:32.369Z",
       "root": "/",
@@ -1063,11 +1073,11 @@
       "blksize": 4096,
       "ino": 4682351,
       "blocks": 1568,
-      "atimeMs": 1549298323597.085,
+      "atimeMs": 1550140926873.7905,
       "mtimeMs": 1549290692373.2402,
       "ctimeMs": 1549290692373.2402,
       "birthtimeMs": 1549290692369.3027,
-      "atime": "2019-02-04T16:38:43.597Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.373Z",
       "ctime": "2019-02-04T14:31:32.373Z",
       "birthtime": "2019-02-04T14:31:32.369Z"
@@ -1102,7 +1112,7 @@
       "size": 867301,
       "prettySize": "867 kB",
       "modifiedTime": "2019-02-04T14:31:32.308Z",
-      "accessTime": "2019-02-04T16:38:43.577Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.308Z",
       "birthTime": "2019-02-04T14:31:32.304Z",
       "root": "/",
@@ -1120,11 +1130,11 @@
       "blksize": 4096,
       "ino": 4682341,
       "blocks": 1696,
-      "atimeMs": 1549298323576.5479,
+      "atimeMs": 1550140926873.5051,
       "mtimeMs": 1549290692308.076,
       "ctimeMs": 1549290692308.076,
       "birthtimeMs": 1549290692304.1643,
-      "atime": "2019-02-04T16:38:43.577Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.308Z",
       "ctime": "2019-02-04T14:31:32.308Z",
       "birthtime": "2019-02-04T14:31:32.304Z"
@@ -1149,7 +1159,7 @@
       "size": 915009,
       "prettySize": "915 kB",
       "modifiedTime": "2019-02-04T14:31:32.359Z",
-      "accessTime": "2019-02-04T16:38:43.593Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.359Z",
       "birthTime": "2019-02-04T14:31:32.355Z",
       "root": "/",
@@ -1167,11 +1177,11 @@
       "blksize": 4096,
       "ino": 4682349,
       "blocks": 1792,
-      "atimeMs": 1549298323592.663,
+      "atimeMs": 1550140926873.742,
       "mtimeMs": 1549290692359.3418,
       "ctimeMs": 1549290692359.3418,
       "birthtimeMs": 1549290692354.5757,
-      "atime": "2019-02-04T16:38:43.593Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.359Z",
       "ctime": "2019-02-04T14:31:32.359Z",
       "birthtime": "2019-02-04T14:31:32.355Z"
@@ -1196,53 +1206,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e5db9304-77ca-575b-9adf-b82127398d8c": {
-      "id": "e5db9304-77ca-575b-9adf-b82127398d8c",
-      "children": [
-        "2c5693be-5470-5b09-9255-181386dd530f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6848f4cf22beadb016475e5cd7383849",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_03.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_03.jpg",
-      "relativePath": "cartasu.ga_03.jpg",
-      "extension": "jpg",
-      "size": 1038787,
-      "prettySize": "1.04 MB",
-      "modifiedTime": "2019-02-04T14:31:32.313Z",
-      "accessTime": "2019-02-04T16:38:43.578Z",
-      "changeTime": "2019-02-04T14:31:32.313Z",
-      "birthTime": "2019-02-04T14:31:32.308Z",
-      "root": "/",
-      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_03.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_03",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4682342,
-      "blocks": 2032,
-      "atimeMs": 1549298323577.7844,
-      "mtimeMs": 1549290692313.1504,
-      "ctimeMs": 1549290692313.1504,
-      "birthtimeMs": 1549290692308.1616,
-      "atime": "2019-02-04T16:38:43.578Z",
-      "mtime": "2019-02-04T14:31:32.313Z",
-      "ctime": "2019-02-04T14:31:32.313Z",
-      "birthtime": "2019-02-04T14:31:32.308Z"
-    },
     "f75812e2-d42b-5946-a8b5-2399f24d12fe": {
       "id": "f75812e2-d42b-5946-a8b5-2399f24d12fe",
       "children": [
@@ -1263,7 +1226,7 @@
       "size": 978998,
       "prettySize": "979 kB",
       "modifiedTime": "2019-02-04T14:31:32.386Z",
-      "accessTime": "2019-02-04T16:38:43.602Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.386Z",
       "birthTime": "2019-02-04T14:31:32.385Z",
       "root": "/",
@@ -1281,24 +1244,61 @@
       "blksize": 4096,
       "ino": 4682354,
       "blocks": 1920,
-      "atimeMs": 1549298323601.919,
+      "atimeMs": 1550140926873.8635,
       "mtimeMs": 1549290692386.337,
       "ctimeMs": 1549290692386.337,
       "birthtimeMs": 1549290692385.2761,
-      "atime": "2019-02-04T16:38:43.602Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.386Z",
       "ctime": "2019-02-04T14:31:32.386Z",
       "birthtime": "2019-02-04T14:31:32.385Z"
     },
-    "2c5693be-5470-5b09-9255-181386dd530f": {
-      "id": "2c5693be-5470-5b09-9255-181386dd530f",
-      "children": [],
-      "parent": "e5db9304-77ca-575b-9adf-b82127398d8c",
+    "e5db9304-77ca-575b-9adf-b82127398d8c": {
+      "id": "e5db9304-77ca-575b-9adf-b82127398d8c",
+      "children": [
+        "2c5693be-5470-5b09-9255-181386dd530f"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6848f4cf22beadb016475e5cd7383849",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_03.jpg",
+      "relativePath": "cartasu.ga_03.jpg",
+      "extension": "jpg",
+      "size": 1038787,
+      "prettySize": "1.04 MB",
+      "modifiedTime": "2019-02-04T14:31:32.313Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
+      "changeTime": "2019-02-04T14:31:32.313Z",
+      "birthTime": "2019-02-04T14:31:32.308Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_03.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_03",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682342,
+      "blocks": 2032,
+      "atimeMs": 1550140926873.531,
+      "mtimeMs": 1549290692313.1504,
+      "ctimeMs": 1549290692313.1504,
+      "birthtimeMs": 1549290692308.1616,
+      "atime": "2019-02-14T10:42:06.874Z",
+      "mtime": "2019-02-04T14:31:32.313Z",
+      "ctime": "2019-02-04T14:31:32.313Z",
+      "birthtime": "2019-02-04T14:31:32.308Z"
     },
     "4ae8c0df-1b3a-5193-9c7e-59c04e19444c": {
       "id": "4ae8c0df-1b3a-5193-9c7e-59c04e19444c",
@@ -1306,6 +1306,16 @@
       "parent": "f75812e2-d42b-5946-a8b5-2399f24d12fe",
       "internal": {
         "contentDigest": "be9ea919cd66b74b05e37765becac7ab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2c5693be-5470-5b09-9255-181386dd530f": {
+      "id": "2c5693be-5470-5b09-9255-181386dd530f",
+      "children": [],
+      "parent": "e5db9304-77ca-575b-9adf-b82127398d8c",
+      "internal": {
+        "contentDigest": "6848f4cf22beadb016475e5cd7383849",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1330,7 +1340,7 @@
       "size": 1286730,
       "prettySize": "1.29 MB",
       "modifiedTime": "2019-02-04T14:31:32.385Z",
-      "accessTime": "2019-02-04T16:38:43.600Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.385Z",
       "birthTime": "2019-02-04T14:31:32.380Z",
       "root": "/",
@@ -1348,11 +1358,11 @@
       "blksize": 4096,
       "ino": 4682353,
       "blocks": 2520,
-      "atimeMs": 1549298323600.1487,
+      "atimeMs": 1550140926873.8389,
       "mtimeMs": 1549290692385.0925,
       "ctimeMs": 1549290692385.0925,
       "birthtimeMs": 1549290692379.7212,
-      "atime": "2019-02-04T16:38:43.600Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.385Z",
       "ctime": "2019-02-04T14:31:32.385Z",
       "birthtime": "2019-02-04T14:31:32.380Z"
@@ -1387,7 +1397,7 @@
       "size": 1421038,
       "prettySize": "1.42 MB",
       "modifiedTime": "2019-02-04T14:31:32.339Z",
-      "accessTime": "2019-02-04T16:38:43.586Z",
+      "accessTime": "2019-02-14T10:50:50.423Z",
       "changeTime": "2019-02-04T14:31:32.339Z",
       "birthTime": "2019-02-04T14:31:32.332Z",
       "root": "/",
@@ -1405,61 +1415,14 @@
       "blksize": 4096,
       "ino": 4682346,
       "blocks": 2776,
-      "atimeMs": 1549298323586.2144,
+      "atimeMs": 1550141450423.0706,
       "mtimeMs": 1549290692338.6887,
       "ctimeMs": 1549290692338.6887,
       "birthtimeMs": 1549290692332.257,
-      "atime": "2019-02-04T16:38:43.586Z",
+      "atime": "2019-02-14T10:50:50.423Z",
       "mtime": "2019-02-04T14:31:32.339Z",
       "ctime": "2019-02-04T14:31:32.339Z",
       "birthtime": "2019-02-04T14:31:32.332Z"
-    },
-    "ca835bc2-ceed-5c3b-899b-1eadc5fefad4": {
-      "id": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
-      "children": [
-        "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_01.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_01.jpg",
-      "relativePath": "cartasu.ga_01.jpg",
-      "extension": "jpg",
-      "size": 1444364,
-      "prettySize": "1.44 MB",
-      "modifiedTime": "2019-02-04T14:31:32.304Z",
-      "accessTime": "2019-02-04T16:38:43.575Z",
-      "changeTime": "2019-02-04T14:31:32.304Z",
-      "birthTime": "2019-02-04T14:31:32.298Z",
-      "root": "/",
-      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_01.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_01",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4682340,
-      "blocks": 2824,
-      "atimeMs": 1549298323574.5745,
-      "mtimeMs": 1549290692304.043,
-      "ctimeMs": 1549290692304.043,
-      "birthtimeMs": 1549290692297.7761,
-      "atime": "2019-02-04T16:38:43.575Z",
-      "mtime": "2019-02-04T14:31:32.304Z",
-      "ctime": "2019-02-04T14:31:32.304Z",
-      "birthtime": "2019-02-04T14:31:32.298Z"
     },
     "495df608-39c8-5ad4-903e-41f6106c34c9": {
       "id": "495df608-39c8-5ad4-903e-41f6106c34c9",
@@ -1481,7 +1444,7 @@
       "size": 1427095,
       "prettySize": "1.43 MB",
       "modifiedTime": "2019-02-04T14:31:32.319Z",
-      "accessTime": "2019-02-04T16:38:43.579Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.319Z",
       "birthTime": "2019-02-04T14:31:32.313Z",
       "root": "/",
@@ -1499,11 +1462,11 @@
       "blksize": 4096,
       "ino": 4682343,
       "blocks": 2792,
-      "atimeMs": 1549298323579.3489,
+      "atimeMs": 1550140926873.5571,
       "mtimeMs": 1549290692319.041,
       "ctimeMs": 1549290692319.041,
       "birthtimeMs": 1549290692313.294,
-      "atime": "2019-02-04T16:38:43.579Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.319Z",
       "ctime": "2019-02-04T14:31:32.319Z",
       "birthtime": "2019-02-04T14:31:32.313Z"
@@ -1514,16 +1477,6 @@
       "parent": "ee97279b-dde6-5921-b60f-b6c6e3c747e6",
       "internal": {
         "contentDigest": "73156c6f70e76eb691d00f0a2b2cf00a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9": {
-      "id": "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9",
-      "children": [],
-      "parent": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
-      "internal": {
-        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1558,7 +1511,7 @@
       "size": 1456279,
       "prettySize": "1.46 MB",
       "modifiedTime": "2019-02-04T14:31:32.380Z",
-      "accessTime": "2019-02-04T16:38:43.598Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.380Z",
       "birthTime": "2019-02-04T14:31:32.373Z",
       "root": "/",
@@ -1576,14 +1529,61 @@
       "blksize": 4096,
       "ino": 4682352,
       "blocks": 2848,
-      "atimeMs": 1549298323598.1848,
+      "atimeMs": 1550140926873.8147,
       "mtimeMs": 1549290692379.5652,
       "ctimeMs": 1549290692379.5652,
       "birthtimeMs": 1549290692373.3298,
-      "atime": "2019-02-04T16:38:43.598Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.380Z",
       "ctime": "2019-02-04T14:31:32.380Z",
       "birthtime": "2019-02-04T14:31:32.373Z"
+    },
+    "ca835bc2-ceed-5c3b-899b-1eadc5fefad4": {
+      "id": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
+      "children": [
+        "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_01.jpg",
+      "relativePath": "cartasu.ga_01.jpg",
+      "extension": "jpg",
+      "size": 1444364,
+      "prettySize": "1.44 MB",
+      "modifiedTime": "2019-02-04T14:31:32.304Z",
+      "accessTime": "2019-02-14T10:42:06.873Z",
+      "changeTime": "2019-02-04T14:31:32.304Z",
+      "birthTime": "2019-02-04T14:31:32.298Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_01.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682340,
+      "blocks": 2824,
+      "atimeMs": 1550140926873.477,
+      "mtimeMs": 1549290692304.043,
+      "ctimeMs": 1549290692304.043,
+      "birthtimeMs": 1549290692297.7761,
+      "atime": "2019-02-14T10:42:06.873Z",
+      "mtime": "2019-02-04T14:31:32.304Z",
+      "ctime": "2019-02-04T14:31:32.304Z",
+      "birthtime": "2019-02-04T14:31:32.298Z"
     },
     "db9b635d-eb76-59d4-bde0-66ac70a49092": {
       "id": "db9b635d-eb76-59d4-bde0-66ac70a49092",
@@ -1591,6 +1591,16 @@
       "parent": "0861df91-4f6d-569c-889a-ce31fa2804ae",
       "internal": {
         "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9": {
+      "id": "6a5e93b8-9a97-5fd0-b97c-b9a1118cdbf9",
+      "children": [],
+      "parent": "ca835bc2-ceed-5c3b-899b-1eadc5fefad4",
+      "internal": {
+        "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1615,7 +1625,7 @@
       "size": 1630166,
       "prettySize": "1.63 MB",
       "modifiedTime": "2019-02-04T14:31:32.332Z",
-      "accessTime": "2019-02-04T16:38:43.584Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.332Z",
       "birthTime": "2019-02-04T14:31:32.325Z",
       "root": "/",
@@ -1633,11 +1643,11 @@
       "blksize": 4096,
       "ino": 4682345,
       "blocks": 3184,
-      "atimeMs": 1549298323583.8943,
+      "atimeMs": 1550140926873.611,
       "mtimeMs": 1549290692332.1118,
       "ctimeMs": 1549290692332.1118,
       "birthtimeMs": 1549290692324.705,
-      "atime": "2019-02-04T16:38:43.584Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.332Z",
       "ctime": "2019-02-04T14:31:32.332Z",
       "birthtime": "2019-02-04T14:31:32.325Z"
@@ -1672,7 +1682,7 @@
       "size": 1678108,
       "prettySize": "1.68 MB",
       "modifiedTime": "2019-02-04T14:31:32.347Z",
-      "accessTime": "2019-02-04T16:38:43.588Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.347Z",
       "birthTime": "2019-02-04T14:31:32.339Z",
       "root": "/",
@@ -1690,14 +1700,61 @@
       "blksize": 4096,
       "ino": 4682347,
       "blocks": 3280,
-      "atimeMs": 1549298323588.148,
+      "atimeMs": 1550140926873.6719,
       "mtimeMs": 1549290692346.6953,
       "ctimeMs": 1549290692346.6953,
       "birthtimeMs": 1549290692338.8052,
-      "atime": "2019-02-04T16:38:43.588Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.347Z",
       "ctime": "2019-02-04T14:31:32.347Z",
       "birthtime": "2019-02-04T14:31:32.339Z"
+    },
+    "4df5158c-b9b8-51d6-82a3-49bafc1036ce": {
+      "id": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
+      "children": [
+        "28ae032f-f112-5fc8-910f-bfe5539ed715"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cartasu.ga_09.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_09.jpg",
+      "relativePath": "cartasu.ga_09.jpg",
+      "extension": "jpg",
+      "size": 1659613,
+      "prettySize": "1.66 MB",
+      "modifiedTime": "2019-02-04T14:31:32.354Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
+      "changeTime": "2019-02-04T14:31:32.354Z",
+      "birthTime": "2019-02-04T14:31:32.347Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
+      "base": "cartasu.ga_09.jpg",
+      "ext": ".jpg",
+      "name": "cartasu.ga_09",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4682348,
+      "blocks": 3248,
+      "atimeMs": 1550140926873.7178,
+      "mtimeMs": 1549290692354.4023,
+      "ctimeMs": 1549290692354.4023,
+      "birthtimeMs": 1549290692346.844,
+      "atime": "2019-02-14T10:42:06.874Z",
+      "mtime": "2019-02-04T14:31:32.354Z",
+      "ctime": "2019-02-04T14:31:32.354Z",
+      "birthtime": "2019-02-04T14:31:32.347Z"
     },
     "cbe9e841-e20e-54f6-8800-1426825dbb4d": {
       "id": "cbe9e841-e20e-54f6-8800-1426825dbb4d",
@@ -1705,6 +1762,16 @@
       "parent": "9a9621e5-938d-59a2-bffa-21779c536752",
       "internal": {
         "contentDigest": "5a218c9dd79a780dfc2241be15a3aa3e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "28ae032f-f112-5fc8-910f-bfe5539ed715": {
+      "id": "28ae032f-f112-5fc8-910f-bfe5539ed715",
+      "children": [],
+      "parent": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
+      "internal": {
+        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1729,7 +1796,7 @@
       "size": 1789827,
       "prettySize": "1.79 MB",
       "modifiedTime": "2019-02-04T14:31:32.325Z",
-      "accessTime": "2019-02-04T16:38:43.581Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.325Z",
       "birthTime": "2019-02-04T14:31:32.319Z",
       "root": "/",
@@ -1747,11 +1814,11 @@
       "blksize": 4096,
       "ino": 4682344,
       "blocks": 3496,
-      "atimeMs": 1549298323581.376,
+      "atimeMs": 1550140926873.5828,
       "mtimeMs": 1549290692324.5476,
       "ctimeMs": 1549290692324.5476,
       "birthtimeMs": 1549290692319.1616,
-      "atime": "2019-02-04T16:38:43.581Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.325Z",
       "ctime": "2019-02-04T14:31:32.325Z",
       "birthtime": "2019-02-04T14:31:32.319Z"
@@ -1762,63 +1829,6 @@
       "parent": "5728ad6b-1f28-5cf0-bb7c-1eba0cb48eab",
       "internal": {
         "contentDigest": "05e626069ea6709cf39451f4beaf2f30",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "4df5158c-b9b8-51d6-82a3-49bafc1036ce": {
-      "id": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
-      "children": [
-        "28ae032f-f112-5fc8-910f-bfe5539ed715"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/cartasu.ga_09.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/cartasu.ga_09.jpg",
-      "relativePath": "cartasu.ga_09.jpg",
-      "extension": "jpg",
-      "size": 1659613,
-      "prettySize": "1.66 MB",
-      "modifiedTime": "2019-02-04T14:31:32.354Z",
-      "accessTime": "2019-02-04T16:38:43.590Z",
-      "changeTime": "2019-02-04T14:31:32.354Z",
-      "birthTime": "2019-02-04T14:31:32.347Z",
-      "root": "/",
-      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
-      "base": "cartasu.ga_09.jpg",
-      "ext": ".jpg",
-      "name": "cartasu.ga_09",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 4682348,
-      "blocks": 3248,
-      "atimeMs": 1549298323590.4128,
-      "mtimeMs": 1549290692354.4023,
-      "ctimeMs": 1549290692354.4023,
-      "birthtimeMs": 1549290692346.844,
-      "atime": "2019-02-04T16:38:43.590Z",
-      "mtime": "2019-02-04T14:31:32.354Z",
-      "ctime": "2019-02-04T14:31:32.354Z",
-      "birthtime": "2019-02-04T14:31:32.347Z"
-    },
-    "28ae032f-f112-5fc8-910f-bfe5539ed715": {
-      "id": "28ae032f-f112-5fc8-910f-bfe5539ed715",
-      "children": [],
-      "parent": "4df5158c-b9b8-51d6-82a3-49bafc1036ce",
-      "internal": {
-        "contentDigest": "864170a6e58e72163bbc007db5cf8fc1",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1843,7 +1853,7 @@
       "size": 2154979,
       "prettySize": "2.15 MB",
       "modifiedTime": "2019-02-04T14:31:32.369Z",
-      "accessTime": "2019-02-04T16:38:43.594Z",
+      "accessTime": "2019-02-14T10:42:06.874Z",
       "changeTime": "2019-02-04T14:31:32.369Z",
       "birthTime": "2019-02-04T14:31:32.359Z",
       "root": "/",
@@ -1861,11 +1871,11 @@
       "blksize": 4096,
       "ino": 4682350,
       "blocks": 4216,
-      "atimeMs": 1549298323593.949,
+      "atimeMs": 1550140926873.7664,
       "mtimeMs": 1549290692369.1104,
       "ctimeMs": 1549290692369.1104,
       "birthtimeMs": 1549290692359.4895,
-      "atime": "2019-02-04T16:38:43.594Z",
+      "atime": "2019-02-14T10:42:06.874Z",
       "mtime": "2019-02-04T14:31:32.369Z",
       "ctime": "2019-02-04T14:31:32.369Z",
       "birthtime": "2019-02-04T14:31:32.359Z"
@@ -1983,7 +1993,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "eb18c100e3bb6a697e0348dcb8814bf1"
+    "PLUGINS_HASH": "de4c50bf51f0d7684a6074b6ea468fbe"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -1999,17 +2009,9 @@
     "index-old-0-696": "134/path---index-old-0-696-e84-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
-    },
     "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js"
-    },
-    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js": {
-      "query": "",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js"
     },
     "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js": {
       "query": "",
@@ -2018,6 +2020,14 @@
     "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js"
+    },
+    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js": {
+      "query": "",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/moontains.js"
+    },
+    "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}

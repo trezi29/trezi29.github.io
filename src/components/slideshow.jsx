@@ -41,12 +41,12 @@ export default class Slideshow extends Component {
   };
 
   handleKeyPress = (event) => {
-    if(event.key == 'ArrowRight'){
+    if(event.key === 'ArrowRight'){
       // console.log('right arrow press! ')
       if(this.state.img < this.state.imgNumber-1){
         this.nextImg();
       }
-    } else if(event.key == 'ArrowLeft'){
+    } else if(event.key === 'ArrowLeft'){
       // console.log('left arrow press! ')
       if(this.state.img > 0){
         this.prevImg();
