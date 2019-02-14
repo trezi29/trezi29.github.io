@@ -2,12 +2,14 @@
 
 .galleryCard__container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
-  grid-template-rows: auto 55px;
-  // flex-direction: row;
-  // align-items: flex-start;
-  // justify-content: center;
+  // grid-template-rows: auto 55px;
+  margin: 30px 40px 55px;
+
+  &~ .galleryCard__container {
+    margin: 0 40px 55px;
+  }
 
   .galleryCard__image {
     grid-column: 1 / 2;
@@ -16,7 +18,6 @@
   }
 
   .galleryCard__descriptioContainer {
-    // margin: 0 0 0 20px;
     grid-column: 2 / 3;
 
     .galleryCard__title {

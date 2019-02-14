@@ -58,47 +58,41 @@
   }
 }
 
-.slideshow__pictures {
+.slideshow__container {
+  display: grid;
+  grid-template-columns: auto 250px;
+  grid-template-rows: auto 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  height: calc(100vh - 84px);
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  background-position: center center;
-  background-size: cover;
+
+  .slideshow__pictures {
+    // width: 100vw;
+    // height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   .slideshow__controls {
-    width: 475px;
-    height: 195px;
     background-color: $light-color;
-    padding: 25px;
-    position: absolute;
     bottom: 0;
     left: 15%;
-
-    .slideshow__title {
-      color: $text-color;
-      letter-spacing: 15%;
-      margin: 0;
-      font-size: 32px;
-    }
-
-    .slideshow__date {
-      color: $text-color;
-      letter-spacing: 25%;
-      margin: 10px 0 0;
-      font-size: 12px;
-    }
+    align-self: end;
+    display: flex;
+    justify-content: flex-end;
 
     .slideshow__button {
       width: 150px;
       height: 65px;
-      position: absolute;
-      background-color: $dark-color;
-      color: $light-color;
       font-size: 12px;
       border: 0;
       text-transform: uppercase;
       cursor: pointer;
+      position: relative;
 
       &:focus {
         outline: none;
@@ -106,15 +100,45 @@
 
       &--next {
         @extend .slideshow__button;
-        top: 30px;
-        right: -100px;
+
+        &:after {
+          content: url('../icon/right.svg');
+        }
       }
 
       &--prev {
         @extend .slideshow__button;
-        bottom: 10px;
-        left: -100px;
+
+        &:before {
+          content: url('../icon/left.svg');
+        }
       }
+
+      &--hidden {
+        @extend .slideshow__button;
+        visibility: hidden;
+      }
+    }
+  }
+
+  .slideshow__info {
+    align-self: start;
+    justify-self: end;
+
+    .slideshow__title {
+      color: $text-color;
+      letter-spacing: 15%;
+      margin: 0;
+      font-size: 32px;
+      text-align: right;
+    }
+
+    .slideshow__date {
+      color: $text-color;
+      letter-spacing: 25%;
+      margin: 10px 0 0;
+      font-size: 12px;
+      text-align: right;
     }
   }
 }

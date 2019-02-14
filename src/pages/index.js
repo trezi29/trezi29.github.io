@@ -23,7 +23,7 @@ const IndexPage = () => (
       title='moontains'
       img={Moontains}
       photographer='Matteo Tressi'
-      rightImage={true}
+      rightImage
     />
     <GalleryCard
       title='moontains'
