@@ -6,6 +6,10 @@
   flex-direction: row;
   justify-content: space-between;
 
+  @media screen and (max-width: $tablet) {
+    padding: 20px;
+  }
+
   .header__logo {
     margin: 0;
     cursor: pointer;

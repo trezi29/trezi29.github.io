@@ -7,18 +7,42 @@
   // grid-template-rows: auto 55px;
   margin: 30px 40px 55px;
 
+  @media screen and (max-width: $tablet) {
+    margin: 30px 20px 55px;
+    grid-row-gap: 10px;
+  }
+
   &~ .galleryCard__container {
     margin: 0 40px 55px;
+
+    @media screen and (max-width: $tablet) {
+      margin: 0 20px 55px;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    grid-template-columns: auto;
   }
 
   .galleryCard__image {
     grid-column: 1 / 2;
     cursor: pointer;
     justify-self: end;
+
+    @media screen and (max-width: $tablet) {
+      height: auto;
+      width: 100%;
+      max-width: 400px;
+    }
   }
 
   .galleryCard__descriptioContainer {
     grid-column: 2 / 3;
+
+    @media screen and (max-width: $tablet) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
 
     .galleryCard__title {
       margin: 0 0 5px;
@@ -49,12 +73,20 @@
     .galleryCard__image {
       grid-column: 2 / 3;
       justify-self: start;
+
+      @media screen and (max-width: $tablet) {
+        grid-column: 1 / 2;
+      }
     }
 
     .galleryCard__descriptioContainer {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
       text-align: right;
+
+      @media screen and (max-width: $tablet) {
+        grid-row: 2 / 3;
+      }
 
       .galleryCard__ph {
         justify-content: flex-end;

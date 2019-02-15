@@ -5,7 +5,7 @@ import GalleryCard from "../components/galleryCard"
 
 import '../styles/def.scss'
 
-import Moontains from '../images/moontains_01.jpg';
+import Moontains from '../images/moontains/moontains_01.jpg';
 
 
 const IndexPage = () => (

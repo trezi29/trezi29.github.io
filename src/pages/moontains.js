@@ -5,9 +5,10 @@ import Slideshow from "../components/slideshow"
 import Img1 from '../images/moontains/moontains_01.jpg';
 import Img2 from '../images/moontains/moontains_02.jpg';
 import Img3 from '../images/moontains/moontains_03.jpg';
+import Img4 from '../images/moontains/moontains_04.jpg';
 
 //map images with title and date
-let imagesList = [Img1, Img2, Img3];
+let imagesList = [Img1, Img2, Img3, Img4];
 
 export default class Moontains extends Component {
   render() {
