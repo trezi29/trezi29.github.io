@@ -16,16 +16,6 @@ export default class Slideshow extends Component {
     };
   }
 
-// getting screen dimensions
-  // componentDidMount() {
-  //   this.updateWindowDimensions();
-  //   window.addEventListener('resize', this.updateWindowDimensions);
-  // }
-  //
-  // updateWindowDimensions() {
-  //   console.log({ width: window.innerWidth, height: window.innerHeight });
-  // }
-
 // gallery controls
 
   nextImg = () => {
@@ -97,7 +87,7 @@ export default class Slideshow extends Component {
           </div>
           <div className="slideshow__controls">
             <button className={`slideshow__button${this.state.img > 0 ? '--prev' : '--hidden'}`} onClick={this.prevImg}>Prev</button>
-            <button className={`slideshow__button${this.state.img < this.state.imgNumber-1 ? '--next' : '--hidden'}`} onClick={this.nextImg} onKeyPress={this.handleKeyPress}>Next</button>
+            <button className={`slideshow__button${this.state.img < this.state.imgNumber-1 ? '--next' : '--hidden'}`} onClick={this.nextImg}>Next</button>
           </div>
           <div className="slideshow__info">
             <h1 className="slideshow__title">{this.props.galleryTitle}</h1>

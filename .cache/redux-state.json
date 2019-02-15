@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "586b8bbd37a29ecc64fb3dc463d47311",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -977,16 +968,14 @@
       "siteMetadata": {
         "title": "cartasu.ga"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-15T13:57:05.695Z",
+      "buildTime": "2019-02-15T16:46:19.473Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3f2af66125c999e22fbee25ede0564f",
+        "contentDigest": "6b89d1601b4c08137dde58064e516b9a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -996,7 +985,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dd15116e0b9d842294e3a0965b97520f",
+        "contentDigest": "44b1eb77a0f7185dade876d8818156c4",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1007,9 +996,9 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2019-02-15T13:56:57.435Z",
-      "accessTime": "2019-02-15T13:57:07.747Z",
-      "changeTime": "2019-02-15T13:56:57.435Z",
+      "modifiedTime": "2019-02-15T16:39:08.986Z",
+      "accessTime": "2019-02-15T16:46:21.269Z",
+      "changeTime": "2019-02-15T16:39:08.986Z",
       "birthTime": "2019-02-04T14:31:32.298Z",
       "root": "/",
       "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src",
@@ -1026,13 +1015,13 @@
       "blksize": 4096,
       "ino": 4682339,
       "blocks": 0,
-      "atimeMs": 1550239027746.898,
-      "mtimeMs": 1550239017434.5117,
-      "ctimeMs": 1550239017434.5117,
+      "atimeMs": 1550249181268.9268,
+      "mtimeMs": 1550248748985.884,
+      "ctimeMs": 1550248748985.884,
       "birthtimeMs": 1549290692297.737,
-      "atime": "2019-02-15T13:57:07.747Z",
-      "mtime": "2019-02-15T13:56:57.435Z",
-      "ctime": "2019-02-15T13:56:57.435Z",
+      "atime": "2019-02-15T16:46:21.269Z",
+      "mtime": "2019-02-15T16:39:08.986Z",
+      "ctime": "2019-02-15T16:39:08.986Z",
       "birthtime": "2019-02-04T14:31:32.298Z"
     },
     "be839c07-8385-5024-be9b-803a4a399838": {
@@ -1040,7 +1029,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b4b512f5add63e70e4219ff5aacec8ad",
+        "contentDigest": "359269758f0972f87452d69e3439b382",
         "type": "Directory",
         "description": "Directory \"src/images/moontains\"",
         "owner": "gatsby-source-filesystem"
@@ -1049,11 +1038,11 @@
       "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
       "relativePath": "moontains",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2019-02-15T10:15:19.111Z",
-      "accessTime": "2019-02-15T13:57:07.750Z",
-      "changeTime": "2019-02-15T11:46:38.606Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-02-15T16:39:08.986Z",
+      "accessTime": "2019-02-15T16:46:21.273Z",
+      "changeTime": "2019-02-15T16:39:08.986Z",
       "birthTime": "2019-02-15T10:14:46.303Z",
       "root": "/",
       "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images",
@@ -1063,20 +1052,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5189777,
       "blocks": 0,
-      "atimeMs": 1550239027749.6167,
-      "mtimeMs": 1550225719110.764,
-      "ctimeMs": 1550231198606.1602,
+      "atimeMs": 1550249181272.7703,
+      "mtimeMs": 1550248748985.884,
+      "ctimeMs": 1550248748985.884,
       "birthtimeMs": 1550225686303.1616,
-      "atime": "2019-02-15T13:57:07.750Z",
-      "mtime": "2019-02-15T10:15:19.111Z",
-      "ctime": "2019-02-15T11:46:38.606Z",
+      "atime": "2019-02-15T16:46:21.273Z",
+      "mtime": "2019-02-15T16:39:08.986Z",
+      "ctime": "2019-02-15T16:39:08.986Z",
       "birthtime": "2019-02-15T10:14:46.303Z"
     },
     "09eb8062-93eb-57c9-a2c4-80e9b2bc7a4b": {
@@ -1099,8 +1088,8 @@
       "size": 867301,
       "prettySize": "867 kB",
       "modifiedTime": "2019-02-04T14:31:32.308Z",
-      "accessTime": "2019-02-15T11:39:29.826Z",
-      "changeTime": "2019-02-15T11:46:38.606Z",
+      "accessTime": "2019-02-15T16:39:31.621Z",
+      "changeTime": "2019-02-15T16:39:08.980Z",
       "birthTime": "2019-02-04T14:31:32.304Z",
       "root": "/",
       "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
@@ -1117,13 +1106,13 @@
       "blksize": 4096,
       "ino": 5189780,
       "blocks": 1696,
-      "atimeMs": 1550230769826.2793,
+      "atimeMs": 1550248771620.5593,
       "mtimeMs": 1549290692308.0757,
-      "ctimeMs": 1550231198605.9607,
+      "ctimeMs": 1550248748980.1199,
       "birthtimeMs": 1549290692304.1643,
-      "atime": "2019-02-15T11:39:29.826Z",
+      "atime": "2019-02-15T16:39:31.621Z",
       "mtime": "2019-02-04T14:31:32.308Z",
-      "ctime": "2019-02-15T11:46:38.606Z",
+      "ctime": "2019-02-15T16:39:08.980Z",
       "birthtime": "2019-02-04T14:31:32.304Z"
     },
     "26792586-b6a8-53c9-af68-a7608b37e0d7": {
@@ -1156,8 +1145,8 @@
       "size": 1038787,
       "prettySize": "1.04 MB",
       "modifiedTime": "2019-02-04T14:31:32.313Z",
-      "accessTime": "2019-02-15T11:39:29.826Z",
-      "changeTime": "2019-02-15T11:46:38.605Z",
+      "accessTime": "2019-02-15T16:39:31.622Z",
+      "changeTime": "2019-02-15T16:39:08.983Z",
       "birthTime": "2019-02-04T14:31:32.308Z",
       "root": "/",
       "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
@@ -1174,13 +1163,13 @@
       "blksize": 4096,
       "ino": 5189779,
       "blocks": 2032,
-      "atimeMs": 1550230769826.3425,
+      "atimeMs": 1550248771621.7493,
       "mtimeMs": 1549290692313.1504,
-      "ctimeMs": 1550231198604.9626,
+      "ctimeMs": 1550248748983.0203,
       "birthtimeMs": 1549290692308.1616,
-      "atime": "2019-02-15T11:39:29.826Z",
+      "atime": "2019-02-15T16:39:31.622Z",
       "mtime": "2019-02-04T14:31:32.313Z",
-      "ctime": "2019-02-15T11:46:38.605Z",
+      "ctime": "2019-02-15T16:39:08.983Z",
       "birthtime": "2019-02-04T14:31:32.308Z"
     },
     "f2f07d05-67fa-58d5-990f-2872c82263c9": {
@@ -1213,8 +1202,8 @@
       "size": 1444364,
       "prettySize": "1.44 MB",
       "modifiedTime": "2019-02-04T14:31:32.304Z",
-      "accessTime": "2019-02-15T11:39:29.826Z",
-      "changeTime": "2019-02-15T11:46:38.604Z",
+      "accessTime": "2019-02-15T16:39:31.619Z",
+      "changeTime": "2019-02-15T16:39:08.977Z",
       "birthTime": "2019-02-04T14:31:32.298Z",
       "root": "/",
       "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
@@ -1231,13 +1220,13 @@
       "blksize": 4096,
       "ino": 5189778,
       "blocks": 2824,
-      "atimeMs": 1550230769826.279,
+      "atimeMs": 1550248771618.5925,
       "mtimeMs": 1549290692304.043,
-      "ctimeMs": 1550231198603.8774,
+      "ctimeMs": 1550248748976.9153,
       "birthtimeMs": 1549290692297.7761,
-      "atime": "2019-02-15T11:39:29.826Z",
+      "atime": "2019-02-15T16:39:31.619Z",
       "mtime": "2019-02-04T14:31:32.304Z",
-      "ctime": "2019-02-15T11:46:38.604Z",
+      "ctime": "2019-02-15T16:39:08.977Z",
       "birthtime": "2019-02-04T14:31:32.298Z"
     },
     "5b99fa8b-666c-5ef1-bfb5-da1a6dd25c86": {
@@ -1246,6 +1235,63 @@
       "parent": "0187ccb7-1827-5018-af6e-a82c70389396",
       "internal": {
         "contentDigest": "c9bc8cfbb8027d9f07ea97a4fc4271b7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "78921702-875a-57ba-873e-99f0971cfad8": {
+      "id": "78921702-875a-57ba-873e-99f0971cfad8",
+      "children": [
+        "df2453cf-877e-51a5-a3ee-02bf8d0b5149"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/moontains/moontains_04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains/moontains_04.jpg",
+      "relativePath": "moontains/moontains_04.jpg",
+      "extension": "jpg",
+      "size": 1456279,
+      "prettySize": "1.46 MB",
+      "modifiedTime": "2019-02-04T14:31:32.380Z",
+      "accessTime": "2019-02-15T16:39:31.623Z",
+      "changeTime": "2019-02-15T16:39:08.986Z",
+      "birthTime": "2019-02-04T14:31:32.373Z",
+      "root": "/",
+      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
+      "base": "moontains_04.jpg",
+      "ext": ".jpg",
+      "name": "moontains_04",
+      "relativeDirectory": "moontains",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5196727,
+      "blocks": 2848,
+      "atimeMs": 1550248771623.159,
+      "mtimeMs": 1549290692379.5652,
+      "ctimeMs": 1550248748985.884,
+      "birthtimeMs": 1549290692373.3298,
+      "atime": "2019-02-15T16:39:31.623Z",
+      "mtime": "2019-02-04T14:31:32.380Z",
+      "ctime": "2019-02-15T16:39:08.986Z",
+      "birthtime": "2019-02-04T14:31:32.373Z"
+    },
+    "df2453cf-877e-51a5-a3ee-02bf8d0b5149": {
+      "id": "df2453cf-877e-51a5-a3ee-02bf8d0b5149",
+      "children": [],
+      "parent": "78921702-875a-57ba-873e-99f0971cfad8",
+      "internal": {
+        "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1266,26 +1312,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "b5a08372d001201fe8f57d37c23015a2",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /index--old/": {
-      "jsonName": "index-old-0f4",
-      "internalComponentName": "ComponentIndexOld",
-      "path": "/index--old/",
-      "component": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js",
-      "componentChunkName": "component---src-pages-index-old-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js",
-      "id": "SitePage /index--old/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fb82fa16fae6f423206cb46185755686",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1349,63 +1375,6 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
-    },
-    "78921702-875a-57ba-873e-99f0971cfad8": {
-      "id": "78921702-875a-57ba-873e-99f0971cfad8",
-      "children": [
-        "df2453cf-877e-51a5-a3ee-02bf8d0b5149"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/moontains/moontains_04.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains/moontains_04.jpg",
-      "relativePath": "moontains/moontains_04.jpg",
-      "extension": "jpg",
-      "size": 1456279,
-      "prettySize": "1.46 MB",
-      "modifiedTime": "2019-02-04T14:31:32.380Z",
-      "accessTime": "2019-02-15T15:36:18.681Z",
-      "changeTime": "2019-02-15T15:36:21.690Z",
-      "birthTime": "2019-02-04T14:31:32.373Z",
-      "root": "/",
-      "dir": "/Users/user/Documents/GitHub/trezi29.github.io/src/images/moontains",
-      "base": "moontains_04.jpg",
-      "ext": ".jpg",
-      "name": "moontains_04",
-      "relativeDirectory": "moontains",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5196727,
-      "blocks": 2848,
-      "atimeMs": 1550244978681.2822,
-      "mtimeMs": 1549290692379.5652,
-      "ctimeMs": 1550244981690.1052,
-      "birthtimeMs": 1549290692373.3298,
-      "atime": "2019-02-15T15:36:18.681Z",
-      "mtime": "2019-02-04T14:31:32.380Z",
-      "ctime": "2019-02-15T15:36:21.690Z",
-      "birthtime": "2019-02-04T14:31:32.373Z"
-    },
-    "df2453cf-877e-51a5-a3ee-02bf8d0b5149": {
-      "id": "df2453cf-877e-51a5-a3ee-02bf8d0b5149",
-      "children": [],
-      "parent": "78921702-875a-57ba-873e-99f0971cfad8",
-      "internal": {
-        "contentDigest": "905ca36ad0e6025b54e90847405cb2df",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
@@ -1425,17 +1394,9 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/.cache/dev-404-page.js"
-    },
     "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/404.js"
-    },
-    "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js": {
-      "query": "",
-      "componentPath": "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index--old.js"
     },
     "/Users/user/Documents/GitHub/trezi29.github.io/src/pages/index.js": {
       "query": "",
