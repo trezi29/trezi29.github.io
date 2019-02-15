@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/user/Documents/GitHub/trezi29.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/icon/cartasuga_icon.png"},
+      options: {"plugins":[],"name":"cartasu.ga","short_name":"cartasu.ga","start_url":"/","background_color":"#fff","theme_color":"#fff","display":"fullscreen","icon":"src/icon/cartasuga_icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
