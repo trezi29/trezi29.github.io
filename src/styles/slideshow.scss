@@ -61,10 +61,10 @@
 .slideshow__container {
   display: grid;
   grid-template-columns: auto 250px;
-  grid-template-rows: auto 100px;
+  grid-template-rows: auto 120px;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  height: calc(100vh - 84px);
+  height: calc(100vh - 85px);
   width: 100vw;
 
   .slideshow__pictures {
@@ -79,20 +79,19 @@
 
   .slideshow__controls {
     background-color: $light-color;
-    bottom: 0;
-    left: 15%;
     align-self: end;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     .slideshow__button {
-      width: 150px;
-      height: 65px;
+      // width: 150px;
+      height: 14px;
       font-size: 12px;
       border: 0;
       text-transform: uppercase;
       cursor: pointer;
       position: relative;
+      padding: 0;
 
       &:focus {
         outline: none;
@@ -100,17 +99,25 @@
 
       &--next {
         @extend .slideshow__button;
+        margin: 0 30px 0 0;
 
         &:after {
           content: url('../icon/right.svg');
+          position: absolute;
+          right: -5px;
+          top: 1px;
         }
       }
 
       &--prev {
         @extend .slideshow__button;
+        margin: 0 0 0 9px;
 
         &:before {
           content: url('../icon/left.svg');
+          position: absolute;
+          left: -9px;
+          top: 1px;
         }
       }
 
@@ -126,18 +133,20 @@
     justify-self: end;
 
     .slideshow__title {
-      color: $text-color;
-      letter-spacing: 15%;
+      color: $dark-color;
+      letter-spacing: 3.2px;
       margin: 0;
-      font-size: 32px;
+      font-size: 20px;
       text-align: right;
     }
 
-    .slideshow__date {
-      color: $text-color;
-      letter-spacing: 25%;
+    .slideshow__photographer {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 100;
+      color: $dark-color;
+      letter-spacing: normal;
       margin: 10px 0 0;
-      font-size: 12px;
+      font-size: 10px;
       text-align: right;
     }
   }

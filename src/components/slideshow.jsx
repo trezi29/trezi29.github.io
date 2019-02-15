@@ -54,11 +54,15 @@ export default class Slideshow extends Component {
     }
   }
 
+
+
   componentDidMount() {
+    //keyboard arrows binding
     document.addEventListener("keydown", this.handleKeyPress);
   }
 
   componentWillUnmount(){
+    //keyboard arrows unbinding
     document.removeEventListener("keydown", this.handleKeyPress);
   }
 
@@ -67,7 +71,7 @@ export default class Slideshow extends Component {
       <div>
         <Header />
         <Helmet
-          title={'cartasu.ga - ' + this.props.images[this.state.img].title}
+          title={'cartasu.ga - ' + this.props.galleryTitle}
         />
         <ImagesLoaded
           // elementType={'ul'} // defaults to 'div'
@@ -80,7 +84,7 @@ export default class Slideshow extends Component {
         >
           {/* Your images */}
           {
-            this.props.images.map((item, index) => <img className="slideshow__hidden" alt="" height="300" key={index} src={item.image} />)
+            this.props.images.map((item, index) => <img className="slideshow__hidden" alt="" height="300" key={index} src={item} />)
           }
           {this.state.imgLoaded ? '' :
           <div className="slideshow__loading">
@@ -89,17 +93,15 @@ export default class Slideshow extends Component {
           </div>}
         </ImagesLoaded>
         <div className="slideshow__container">
-          <div className="slideshow__pictures" style={{ backgroundImage: `url(${this.props.images[this.state.img].image})`}}>
+          <div className="slideshow__pictures" style={{ backgroundImage: `url(${this.props.images[this.state.img]})`}}>
           </div>
           <div className="slideshow__controls">
-            {/* {this.state.img > 0 ? <button className="slideshow__button--prev" onClick={this.prevImg}>Prev</button> : ''} */}
             <button className={`slideshow__button${this.state.img > 0 ? '--prev' : '--hidden'}`} onClick={this.prevImg}>Prev</button>
-            {/* {this.state.img < this.state.imgNumber-1 ? <button className="slideshow__button--next" onClick={this.nextImg}>Next</button> : ''} */}
             <button className={`slideshow__button${this.state.img < this.state.imgNumber-1 ? '--next' : '--hidden'}`} onClick={this.nextImg} onKeyPress={this.handleKeyPress}>Next</button>
           </div>
           <div className="slideshow__info">
-            <h1 className="slideshow__title">{this.props.images[this.state.img].title}</h1>
-            <h2 className="slideshow__date">{this.props.images[this.state.img].date}</h2>
+            <h1 className="slideshow__title">{this.props.galleryTitle}</h1>
+            <h2 className="slideshow__photographer">{'ph. ' + this.props.galleryPhotographer}</h2>
           </div>
         </div>
       </div>
