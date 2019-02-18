@@ -82,12 +82,13 @@
   }
 
   .slideshow__controls {
-    align-self: center;
+    align-self: end;
     display: flex;
     justify-content: space-between;
 
     @media screen and (max-width: $tablet) {
       grid-row: 3 / 4;
+      align-self: center;
     }
 
     .slideshow__button {
